@@ -2,7 +2,7 @@ ENTRY(vector_start)
 SECTIONS
 {
 	. = 0x0;
-
+	
 	
 	.text :
 	{

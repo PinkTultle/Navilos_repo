@@ -63,8 +63,6 @@
         MSR cpsr, r1
         LDR sp, =USRSYS_STACK_TOP
 
-				BL main
-
     dummy_handler:
         B .
 .end
