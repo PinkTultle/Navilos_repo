@@ -3,7 +3,7 @@
 #include "stdio.h"
 
 #define PRINTF_BUF_LEN  1024
-#define NULL 0
+// #define NULL 0
 
 static char printf_buf[PRINTF_BUF_LEN];   // 1KB
 
