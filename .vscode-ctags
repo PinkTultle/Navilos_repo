@@ -1,0 +1,1138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(navilos)	Makefile	/^$(navilos): $(ASM_OBJS) $(C_OBJS) $(LINKER_SCRIPT)$/;"	t
+$(navilos)	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^$(navilos): $(ASM_OBJS) $(C_OBJS) $(LINKER_SCRIPT)$/;"	t
+ABT_STACK_SIZE	include/MemoryMap.h	/^#define ABT_STACK_SIZE /;"	d
+ABT_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define ABT_STACK_SIZE /;"	d
+ABT_STACK_START	include/MemoryMap.h	/^#define ABT_STACK_START /;"	d
+ABT_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define ABT_STACK_START /;"	d
+ABT_STACK_TOP	include/MemoryMap.h	/^#define ABT_STACK_TOP /;"	d
+ABT_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define ABT_STACK_TOP /;"	d
+ARCH	Makefile	/^ARCH = armv7-a$/;"	m
+ARCH	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^ARCH = armv7-a$/;"	m
+ARM_MODE_BIT_ABT	include/ARMv7AR.h	/^#define ARM_MODE_BIT_ABT /;"	d
+ARM_MODE_BIT_ABT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_ABT /;"	d
+ARM_MODE_BIT_FIQ	include/ARMv7AR.h	/^#define ARM_MODE_BIT_FIQ /;"	d
+ARM_MODE_BIT_FIQ	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_FIQ /;"	d
+ARM_MODE_BIT_IRQ	include/ARMv7AR.h	/^#define ARM_MODE_BIT_IRQ /;"	d
+ARM_MODE_BIT_IRQ	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_IRQ /;"	d
+ARM_MODE_BIT_MON	include/ARMv7AR.h	/^#define ARM_MODE_BIT_MON /;"	d
+ARM_MODE_BIT_MON	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_MON /;"	d
+ARM_MODE_BIT_SVC	include/ARMv7AR.h	/^#define ARM_MODE_BIT_SVC /;"	d
+ARM_MODE_BIT_SVC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_SVC /;"	d
+ARM_MODE_BIT_SYS	include/ARMv7AR.h	/^#define ARM_MODE_BIT_SYS /;"	d
+ARM_MODE_BIT_SYS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_SYS /;"	d
+ARM_MODE_BIT_UND	include/ARMv7AR.h	/^#define ARM_MODE_BIT_UND /;"	d
+ARM_MODE_BIT_UND	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_UND /;"	d
+ARM_MODE_BIT_USR	include/ARMv7AR.h	/^#define ARM_MODE_BIT_USR /;"	d
+ARM_MODE_BIT_USR	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/ARMv7AR.h	/^#define ARM_MODE_BIT_USR /;"	d
+AS	Makefile	/^AS = arm-none-eabi-as$/;"	m
+AS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^AS = arm-none-eabi-as$/;"	m
+ASM_OBJS	Makefile	/^ASM_OBJS = $(patsubst %.S, build\/%.os, $(ASM_SRCS))$/;"	m
+ASM_OBJS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^ASM_OBJS = $(patsubst boot\/%.S, build\/%.os, $(ASM_SRCS))$/;"	m
+ASM_SRCS	Makefile	/^ASM_SRCS = $(notdir $(wildcard boot\/*.S))$/;"	m
+ASM_SRCS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^ASM_SRCS = $(wildcard boot\/*.S)$/;"	m
+BAUDDIVFRAC	hal/rvpb/Uart.h	/^        uint32_t BAUDDIVFRAC:6; \/\/ 5:0$/;"	m	struct:UARTFBRD_t::__anon7165b5840608	typeref:typename:uint32_t:6
+BAUDDIVFRAC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BAUDDIVFRAC:6; \/\/ 5:0$/;"	m	struct:UARTFBRD_t::__anonc8a4e5fd0608	typeref:typename:uint32_t:6
+BAUDDIVINT	hal/rvpb/Uart.h	/^        uint32_t BAUDDIVINT:16; \/\/ 15:0$/;"	m	struct:UARTIBRD_t::__anon7165b5840508	typeref:typename:uint32_t:16
+BAUDDIVINT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BAUDDIVINT:16; \/\/ 15:0$/;"	m	struct:UARTIBRD_t::__anonc8a4e5fd0508	typeref:typename:uint32_t:16
+BE	hal/rvpb/Uart.h	/^        uint32_t BE:1;      \/\/ 10$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:1
+BE	hal/rvpb/Uart.h	/^        uint32_t BE:1;      \/\/ 2$/;"	m	struct:UARTRSR_t::__anon7165b5840208	typeref:typename:uint32_t:1
+BE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BE:1;      \/\/ 10$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:1
+BE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BE:1;      \/\/ 2$/;"	m	struct:UARTRSR_t::__anonc8a4e5fd0208	typeref:typename:uint32_t:1
+BEIC	hal/rvpb/Uart.h	/^        uint32_t BEIC:1;    \/\/ 9$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+BEIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BEIC:1;    \/\/ 9$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+BEIM	hal/rvpb/Uart.h	/^        uint32_t BEIM:1;    \/\/ 9$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+BEIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BEIM:1;    \/\/ 9$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+BEMIS	hal/rvpb/Uart.h	/^        uint32_t BEMIS:1;   \/\/ 9$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+BEMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BEMIS:1;   \/\/ 9$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+BERIS	hal/rvpb/Uart.h	/^        uint32_t BERIS:1;   \/\/ 9$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+BERIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BERIS:1;   \/\/ 9$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+BRK	hal/rvpb/Uart.h	/^        uint32_t BRK:1;     \/\/ 0$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+BRK	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BRK:1;     \/\/ 0$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+BUSY	hal/rvpb/Uart.h	/^        uint32_t BUSY:1;    \/\/ 3$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+BUSY	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t BUSY:1;    \/\/ 3$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+BinaryPoint_t	hal/rvpb/Interrupt.h	/^typedef union BinaryPoint_t$/;"	u
+BinaryPoint_t	hal/rvpb/Interrupt.h	/^} BinaryPoint_t;$/;"	t	typeref:union:BinaryPoint_t
+BinaryPoint_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union BinaryPoint_t$/;"	u
+BinaryPoint_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} BinaryPoint_t;$/;"	t	typeref:union:BinaryPoint_t
+Binarypoint	hal/rvpb/Interrupt.h	/^        uint32_t Binarypoint:3;     \/\/ 2:0$/;"	m	struct:BinaryPoint_t::__anon19c65b350308	typeref:typename:uint32_t:3
+Binarypoint	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Binarypoint:3;     \/\/ 2:0$/;"	m	struct:BinaryPoint_t::__anone243bf4e0308	typeref:typename:uint32_t:3
+CC	Makefile	/^CC = arm-none-eabi-gcc$/;"	m
+CC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^CC = arm-none-eabi-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -c -g -std=c11$/;"	m
+CFLAGS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^CFLAGS = -c -g -std=c11 -mthumb-interwork$/;"	m
+CLR_BIT	include/memio.h	/^#define CLR_BIT(/;"	d
+CLR_BIT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/memio.h	/^#define CLR_BIT(/;"	d
+CPUnumber	hal/rvpb/Interrupt.h	/^        uint32_t CPUnumber:3;       \/\/ 7:5$/;"	m	struct:ControllerType_t::__anon19c65b350908	typeref:typename:uint32_t:3
+CPUnumber	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t CPUnumber:3;       \/\/ 7:5$/;"	m	struct:ControllerType_t::__anone243bf4e0908	typeref:typename:uint32_t:3
+CPUsourceID	hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:EndOfInterrupt_t::__anon19c65b350508	typeref:typename:uint32_t:3
+CPUsourceID	hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:HighestPendInter_t::__anon19c65b350708	typeref:typename:uint32_t:3
+CPUsourceID	hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:InterruptAck_t::__anon19c65b350408	typeref:typename:uint32_t:3
+CPUsourceID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:EndOfInterrupt_t::__anone243bf4e0508	typeref:typename:uint32_t:3
+CPUsourceID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:HighestPendInter_t::__anone243bf4e0708	typeref:typename:uint32_t:3
+CPUsourceID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t CPUsourceID:3;     \/\/ 12:10$/;"	m	struct:InterruptAck_t::__anone243bf4e0408	typeref:typename:uint32_t:3
+CTS	hal/rvpb/Uart.h	/^        uint32_t CTS:1;     \/\/ 0$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+CTS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTS:1;     \/\/ 0$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+CTSEn	hal/rvpb/Uart.h	/^        uint32_t CTSEn:1;       \/\/ 15$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+CTSEn	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTSEn:1;       \/\/ 15$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+CTSMIC	hal/rvpb/Uart.h	/^        uint32_t CTSMIC:1;  \/\/ 1$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+CTSMIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTSMIC:1;  \/\/ 1$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+CTSMIM	hal/rvpb/Uart.h	/^        uint32_t CTSMIM:1;  \/\/ 1$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+CTSMIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTSMIM:1;  \/\/ 1$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+CTSMMIS	hal/rvpb/Uart.h	/^        uint32_t CTSMMIS:1; \/\/ 1$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+CTSMMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTSMMIS:1; \/\/ 1$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+CTSRMIS	hal/rvpb/Uart.h	/^        uint32_t CTSRMIS:1; \/\/ 1$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+CTSRMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t CTSRMIS:1; \/\/ 1$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+C_OBJS	Makefile	/^C_OBJS = $(patsubst %.c, build\/%.o, $(C_SRCS))$/;"	m
+C_OBJS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^C_OBJS = $(patsubst %.c, build\/%.o, $(C_SRCS))$/;"	m
+C_SRCS	Makefile	/^C_SRCS  = $(notdir $(wildcard boot\/*.c))$/;"	m
+C_SRCS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^C_SRCS  = $(notdir $(wildcard boot\/*.c))$/;"	m
+ControllerType_t	hal/rvpb/Interrupt.h	/^typedef union ControllerType_t$/;"	u
+ControllerType_t	hal/rvpb/Interrupt.h	/^} ControllerType_t;$/;"	t	typeref:union:ControllerType_t
+ControllerType_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union ControllerType_t$/;"	u
+ControllerType_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} ControllerType_t;$/;"	t	typeref:union:ControllerType_t
+CpuControl_t	hal/rvpb/Interrupt.h	/^typedef union CpuControl_t$/;"	u
+CpuControl_t	hal/rvpb/Interrupt.h	/^} CpuControl_t;$/;"	t	typeref:union:CpuControl_t
+CpuControl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union CpuControl_t$/;"	u
+CpuControl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} CpuControl_t;$/;"	t	typeref:union:CpuControl_t
+DALLOC_ADDR_START	include/MemoryMap.h	/^#define DALLOC_ADDR_START /;"	d
+DALLOC_ADDR_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define DALLOC_ADDR_START /;"	d
+DALLOC_MEM_SIZE	include/MemoryMap.h	/^#define DALLOC_MEM_SIZE /;"	d
+DALLOC_MEM_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define DALLOC_MEM_SIZE /;"	d
+DATA	hal/rvpb/Uart.h	/^        uint32_t DATA:8;    \/\/ 7:0$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:8
+DATA	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DATA:8;    \/\/ 7:0$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:8
+DCD	hal/rvpb/Uart.h	/^        uint32_t DCD:1;     \/\/ 2$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+DCD	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DCD:1;     \/\/ 2$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+DCDMIC	hal/rvpb/Uart.h	/^        uint32_t DCDMIC:1;  \/\/ 2$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+DCDMIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DCDMIC:1;  \/\/ 2$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+DCDMIM	hal/rvpb/Uart.h	/^        uint32_t DCDMIM:1;  \/\/ 2$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+DCDMIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DCDMIM:1;  \/\/ 2$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+DCDMMIS	hal/rvpb/Uart.h	/^        uint32_t DCDMMIS:1; \/\/ 2$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+DCDMMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DCDMMIS:1; \/\/ 2$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+DCDRMIS	hal/rvpb/Uart.h	/^        uint32_t DCDRMIS:1; \/\/ 2$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+DCDRMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DCDRMIS:1; \/\/ 2$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+DMAONERR	hal/rvpb/Uart.h	/^        uint32_t DMAONERR:1;\/\/ 2$/;"	m	struct:UARTDMACR_t::__anon7165b5840e08	typeref:typename:uint32_t:1
+DMAONERR	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DMAONERR:1;\/\/ 2$/;"	m	struct:UARTDMACR_t::__anonc8a4e5fd0e08	typeref:typename:uint32_t:1
+DSR	hal/rvpb/Uart.h	/^        uint32_t DSR:1;     \/\/ 1$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+DSR	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DSR:1;     \/\/ 1$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+DSRMIC	hal/rvpb/Uart.h	/^        uint32_t DSRMIC:1;  \/\/ 3$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+DSRMIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DSRMIC:1;  \/\/ 3$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+DSRMIM	hal/rvpb/Uart.h	/^        uint32_t DSRMIM:1;  \/\/ 3$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+DSRMIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DSRMIM:1;  \/\/ 3$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+DSRMMIS	hal/rvpb/Uart.h	/^        uint32_t DSRMMIS:1; \/\/ 3$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+DSRMMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DSRMMIS:1; \/\/ 3$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+DSRRMIS	hal/rvpb/Uart.h	/^        uint32_t DSRRMIS:1; \/\/ 3$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+DSRRMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DSRRMIS:1; \/\/ 3$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+DTR	hal/rvpb/Uart.h	/^        uint32_t DTR:1;         \/\/ 10$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+DTR	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t DTR:1;         \/\/ 10$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+DistributorCtrl_t	hal/rvpb/Interrupt.h	/^typedef union DistributorCtrl_t$/;"	u
+DistributorCtrl_t	hal/rvpb/Interrupt.h	/^} DistributorCtrl_t;$/;"	t	typeref:union:DistributorCtrl_t
+DistributorCtrl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union DistributorCtrl_t$/;"	u
+DistributorCtrl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} DistributorCtrl_t;$/;"	t	typeref:union:DistributorCtrl_t
+EPS	hal/rvpb/Uart.h	/^        uint32_t EPS:1;     \/\/ 2$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+EPS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t EPS:1;     \/\/ 2$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+Enable	hal/rvpb/Interrupt.h	/^        uint32_t Enable:1;          \/\/ 0$/;"	m	struct:CpuControl_t::__anon19c65b350108	typeref:typename:uint32_t:1
+Enable	hal/rvpb/Interrupt.h	/^        uint32_t Enable:1;          \/\/ 0$/;"	m	struct:DistributorCtrl_t::__anon19c65b350808	typeref:typename:uint32_t:1
+Enable	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Enable:1;          \/\/ 0$/;"	m	struct:CpuControl_t::__anone243bf4e0108	typeref:typename:uint32_t:1
+Enable	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Enable:1;          \/\/ 0$/;"	m	struct:DistributorCtrl_t::__anone243bf4e0808	typeref:typename:uint32_t:1
+EndOfInterrupt_t	hal/rvpb/Interrupt.h	/^typedef union EndOfInterrupt_t$/;"	u
+EndOfInterrupt_t	hal/rvpb/Interrupt.h	/^} EndOfInterrupt_t;$/;"	t	typeref:union:EndOfInterrupt_t
+EndOfInterrupt_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union EndOfInterrupt_t$/;"	u
+EndOfInterrupt_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} EndOfInterrupt_t;$/;"	t	typeref:union:EndOfInterrupt_t
+FE	hal/rvpb/Uart.h	/^        uint32_t FE:1;      \/\/ 0$/;"	m	struct:UARTRSR_t::__anon7165b5840208	typeref:typename:uint32_t:1
+FE	hal/rvpb/Uart.h	/^        uint32_t FE:1;      \/\/ 8$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:1
+FE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FE:1;      \/\/ 0$/;"	m	struct:UARTRSR_t::__anonc8a4e5fd0208	typeref:typename:uint32_t:1
+FE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FE:1;      \/\/ 8$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:1
+FEIC	hal/rvpb/Uart.h	/^        uint32_t FEIC:1;    \/\/ 7$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+FEIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FEIC:1;    \/\/ 7$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+FEIM	hal/rvpb/Uart.h	/^        uint32_t FEIM:1;    \/\/ 7$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+FEIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FEIM:1;    \/\/ 7$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+FEMIS	hal/rvpb/Uart.h	/^        uint32_t FEMIS:1;   \/\/ 7$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+FEMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FEMIS:1;   \/\/ 7$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+FEN	hal/rvpb/Uart.h	/^        uint32_t FEN:1;     \/\/ 4$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+FEN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FEN:1;     \/\/ 4$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+FERIS	hal/rvpb/Uart.h	/^        uint32_t FERIS:1;   \/\/ 7$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+FERIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t FERIS:1;   \/\/ 7$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+FIQ_STACK_SIZE	include/MemoryMap.h	/^#define FIQ_STACK_SIZE /;"	d
+FIQ_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define FIQ_STACK_SIZE /;"	d
+FIQ_STACK_START	include/MemoryMap.h	/^#define FIQ_STACK_START /;"	d
+FIQ_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define FIQ_STACK_START /;"	d
+FIQ_STACK_TOP	include/MemoryMap.h	/^#define FIQ_STACK_TOP /;"	d
+FIQ_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define FIQ_STACK_TOP /;"	d
+Fiq_Handler	boot/Handler.c	/^__attribute__ ((interrupt ("IRQ"))) void Fiq_Handler(void){$/;"	f	typeref:typename:void
+Fiq_Handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Handler.c	/^ __attribute__ ((interrupt ("FIQ"))) void Fiq_Handler(void)$/;"	f	typeref:typename:void
+GIC_CPU_BASE	hal/rvpb/Interrupt.h	/^#define GIC_CPU_BASE /;"	d
+GIC_CPU_BASE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define GIC_CPU_BASE /;"	d
+GIC_DIST_BASE	hal/rvpb/Interrupt.h	/^#define GIC_DIST_BASE /;"	d
+GIC_DIST_BASE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define GIC_DIST_BASE /;"	d
+GIC_IRQ_END	hal/rvpb/Interrupt.h	/^#define GIC_IRQ_END /;"	d
+GIC_IRQ_END	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define GIC_IRQ_END /;"	d
+GIC_IRQ_START	hal/rvpb/Interrupt.h	/^#define GIC_IRQ_START /;"	d
+GIC_IRQ_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define GIC_IRQ_START /;"	d
+GIC_PRIORITY_MASK_NONE	hal/rvpb/Interrupt.h	/^#define GIC_PRIORITY_MASK_NONE /;"	d
+GIC_PRIORITY_MASK_NONE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define GIC_PRIORITY_MASK_NONE /;"	d
+GLOBAL_ADDR_START	include/MemoryMap.h	/^#define GLOBAL_ADDR_START /;"	d
+GLOBAL_ADDR_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define GLOBAL_ADDR_START /;"	d
+GicCpu	hal/rvpb/Regs.c	/^volatile GicCput_t* GicCpu  = (GicCput_t*)GIC_CPU_BASE;$/;"	v	typeref:typename:volatile GicCput_t *
+GicCpu	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Regs.c	/^volatile GicCput_t* GicCpu  = (GicCput_t*)GIC_CPU_BASE;$/;"	v	typeref:typename:volatile GicCput_t *
+GicCput_t	hal/rvpb/Interrupt.h	/^typedef struct GicCput_t$/;"	s
+GicCput_t	hal/rvpb/Interrupt.h	/^} GicCput_t;$/;"	t	typeref:struct:GicCput_t
+GicCput_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef struct GicCput_t$/;"	s
+GicCput_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} GicCput_t;$/;"	t	typeref:struct:GicCput_t
+GicDist	hal/rvpb/Regs.c	/^volatile GicDist_t* GicDist = (GicDist_t*)GIC_DIST_BASE;/;"	v	typeref:typename:volatile GicDist_t *
+GicDist	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Regs.c	/^volatile GicDist_t* GicDist = (GicDist_t*)GIC_DIST_BASE;$/;"	v	typeref:typename:volatile GicDist_t *
+GicDist_t	hal/rvpb/Interrupt.h	/^typedef struct GicDist_t$/;"	s
+GicDist_t	hal/rvpb/Interrupt.h	/^} GicDist_t;$/;"	t	typeref:struct:GicDist_t
+GicDist_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef struct GicDist_t$/;"	s
+GicDist_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} GicDist_t;$/;"	t	typeref:struct:GicDist_t
+HAL_HALINTERRUPT_H_	hal/HalInterrupt.h	/^#define HAL_HALINTERRUPT_H_$/;"	d
+HAL_HALINTERRUPT_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/HalInterrupt.h	/^#define HAL_HALINTERRUPT_H_$/;"	d
+HAL_HALTIMER_H_	hal/HalTimer.h	/^#define HAL_HALTIMER_H_$/;"	d
+HAL_HALTIMER_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/HalTimer.h	/^#define HAL_HALTIMER_H_$/;"	d
+HAL_HALUART_H_	hal/HalUart.h	/^#define HAL_HALUART_H_$/;"	d
+HAL_HALUART_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/HalUart.h	/^#define HAL_HALUART_H_$/;"	d
+HAL_RVPB_INTERRUPT_H_	hal/rvpb/Interrupt.h	/^#define HAL_RVPB_INTERRUPT_H_$/;"	d
+HAL_RVPB_INTERRUPT_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^#define HAL_RVPB_INTERRUPT_H_$/;"	d
+HAL_RVPB_TIMER_H_	hal/rvpb/Timer.h	/^#define HAL_RVPB_TIMER_H_$/;"	d
+HAL_RVPB_TIMER_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define HAL_RVPB_TIMER_H_$/;"	d
+HAL_RVPB_UART_H_	hal/rvpb/Uart.h	/^#define HAL_RVPB_UART_H_$/;"	d
+HAL_RVPB_UART_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^#define HAL_RVPB_UART_H_$/;"	d
+Hal_interrupt_disable	hal/rvpb/Interrupt.c	/^void Hal_interrupt_disable(uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_disable	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^void Hal_interrupt_disable(uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_enable	hal/rvpb/Interrupt.c	/^void Hal_interrupt_enable(uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_enable	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^void Hal_interrupt_enable(uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_init	hal/rvpb/Interrupt.c	/^void Hal_interrupt_init(void)$/;"	f	typeref:typename:void
+Hal_interrupt_init	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^void Hal_interrupt_init(void)$/;"	f	typeref:typename:void
+Hal_interrupt_register_handler	hal/rvpb/Interrupt.c	/^void Hal_interrupt_register_handler(InterHdlr_fptr handler, uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_register_handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^void Hal_interrupt_register_handler(InterHdlr_fptr handler, uint32_t interrupt_num)$/;"	f	typeref:typename:void
+Hal_interrupt_run_handler	hal/rvpb/Interrupt.c	/^void Hal_interrupt_run_handler(void)$/;"	f	typeref:typename:void
+Hal_interrupt_run_handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^void Hal_interrupt_run_handler(void)$/;"	f	typeref:typename:void
+Hal_timer_get_1ms_counter	hal/rvpb/Timer.c	/^uint32_t Hal_timer_get_1ms_counter(void)$/;"	f	typeref:typename:uint32_t
+Hal_timer_get_1ms_counter	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.c	/^uint32_t Hal_timer_get_1ms_counter(void)$/;"	f	typeref:typename:uint32_t
+Hal_timer_init	hal/rvpb/Timer.c	/^void Hal_timer_init(void)$/;"	f	typeref:typename:void
+Hal_timer_init	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.c	/^void Hal_timer_init(void)$/;"	f	typeref:typename:void
+Hal_uart_get_char	hal/rvpb/Uart.c	/^uint8_t Hal_uart_get_char(void){$/;"	f	typeref:typename:uint8_t
+Hal_uart_get_char	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.c	/^uint8_t Hal_uart_get_char(void)$/;"	f	typeref:typename:uint8_t
+Hal_uart_init	hal/rvpb/Uart.c	/^void Hal_uart_init(void){$/;"	f	typeref:typename:void
+Hal_uart_init	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.c	/^void Hal_uart_init(void)$/;"	f	typeref:typename:void
+Hal_uart_put_char	hal/rvpb/Uart.c	/^void Hal_uart_put_char(uint8_t ch){$/;"	f	typeref:typename:void
+Hal_uart_put_char	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.c	/^void Hal_uart_put_char(uint8_t ch)$/;"	f	typeref:typename:void
+HighestPendInter_t	hal/rvpb/Interrupt.h	/^typedef union HighestPendInter_t$/;"	u
+HighestPendInter_t	hal/rvpb/Interrupt.h	/^} HighestPendInter_t;$/;"	t	typeref:union:HighestPendInter_t
+HighestPendInter_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union HighestPendInter_t$/;"	u
+HighestPendInter_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} HighestPendInter_t;$/;"	t	typeref:union:HighestPendInter_t
+Hw_init	boot/main.c	/^static void Hw_init(void){$/;"	f	typeref:typename:void	file:
+Hw_init	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Main.c	/^static void Hw_init(void)$/;"	f	typeref:typename:void	file:
+IDlinesnumber	hal/rvpb/Interrupt.h	/^        uint32_t IDlinesnumber:5;   \/\/ 4:0$/;"	m	struct:ControllerType_t::__anon19c65b350908	typeref:typename:uint32_t:5
+IDlinesnumber	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t IDlinesnumber:5;   \/\/ 4:0$/;"	m	struct:ControllerType_t::__anone243bf4e0908	typeref:typename:uint32_t:5
+ILPDVSR	hal/rvpb/Uart.h	/^        uint32_t ILPDVSR:8; \/\/ 7:0$/;"	m	struct:UARTILPR_t::__anon7165b5840408	typeref:typename:uint32_t:8
+ILPDVSR	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t ILPDVSR:8; \/\/ 7:0$/;"	m	struct:UARTILPR_t::__anonc8a4e5fd0408	typeref:typename:uint32_t:8
+INCLUDE_MEMIO_H_	include/memio.h	/^#define INCLUDE_MEMIO_H_$/;"	d
+INCLUDE_MEMIO_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/memio.h	/^#define INCLUDE_MEMIO_H_$/;"	d
+INCLUDE_STDARG_H_	include/stdarg.h	/^#define INCLUDE_STDARG_H_$/;"	d
+INCLUDE_STDARG_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdarg.h	/^#define INCLUDE_STDARG_H_$/;"	d
+INC_DIRS	Makefile	/^INC_DIRS =	-I include \\$/;"	m
+INC_DIRS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^INC_DIRS  = -I include 			\\$/;"	m
+INST_ADDR_START	include/MemoryMap.h	/^#define INST_ADDR_START /;"	d
+INST_ADDR_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define INST_ADDR_START /;"	d
+INST_MEM_SIZE	include/MemoryMap.h	/^#define INST_MEM_SIZE /;"	d
+INST_MEM_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define INST_MEM_SIZE /;"	d
+INT16_C	include/stdint.h	/^# define INT16_C(/;"	d
+INT16_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT16_C(/;"	d
+INT16_MAX	include/stdint.h	/^# define INT16_MAX	/;"	d
+INT16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT16_MAX	/;"	d
+INT16_MIN	include/stdint.h	/^# define INT16_MIN	/;"	d
+INT16_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT16_MIN	/;"	d
+INT32_C	include/stdint.h	/^# define INT32_C(/;"	d
+INT32_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT32_C(/;"	d
+INT32_MAX	include/stdint.h	/^# define INT32_MAX	/;"	d
+INT32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT32_MAX	/;"	d
+INT32_MIN	include/stdint.h	/^# define INT32_MIN	/;"	d
+INT32_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT32_MIN	/;"	d
+INT64_C	include/stdint.h	/^#  define INT64_C(/;"	d
+INT64_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INT64_C(/;"	d
+INT64_MAX	include/stdint.h	/^# define INT64_MAX	/;"	d
+INT64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT64_MAX	/;"	d
+INT64_MIN	include/stdint.h	/^# define INT64_MIN	/;"	d
+INT64_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT64_MIN	/;"	d
+INT8_C	include/stdint.h	/^# define INT8_C(/;"	d
+INT8_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT8_C(/;"	d
+INT8_MAX	include/stdint.h	/^# define INT8_MAX	/;"	d
+INT8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT8_MAX	/;"	d
+INT8_MIN	include/stdint.h	/^# define INT8_MIN	/;"	d
+INT8_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT8_MIN	/;"	d
+INTERRUPT_HANDLER_NUM	hal/HalInterrupt.h	/^#define INTERRUPT_HANDLER_NUM /;"	d
+INTERRUPT_HANDLER_NUM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/HalInterrupt.h	/^#define INTERRUPT_HANDLER_NUM /;"	d
+INTMAX_C	include/stdint.h	/^#  define INTMAX_C(/;"	d
+INTMAX_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INTMAX_C(/;"	d
+INTMAX_MAX	include/stdint.h	/^# define INTMAX_MAX	/;"	d
+INTMAX_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INTMAX_MAX	/;"	d
+INTMAX_MIN	include/stdint.h	/^# define INTMAX_MIN	/;"	d
+INTMAX_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INTMAX_MIN	/;"	d
+INTPTR_MAX	include/stdint.h	/^#  define INTPTR_MAX	/;"	d
+INTPTR_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INTPTR_MAX	/;"	d
+INTPTR_MIN	include/stdint.h	/^#  define INTPTR_MIN	/;"	d
+INTPTR_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INTPTR_MIN	/;"	d
+INT_FAST16_MAX	include/stdint.h	/^#  define INT_FAST16_MAX	/;"	d
+INT_FAST16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INT_FAST16_MAX	/;"	d
+INT_FAST16_MIN	include/stdint.h	/^#  define INT_FAST16_MIN	/;"	d
+INT_FAST16_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INT_FAST16_MIN	/;"	d
+INT_FAST32_MAX	include/stdint.h	/^#  define INT_FAST32_MAX	/;"	d
+INT_FAST32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INT_FAST32_MAX	/;"	d
+INT_FAST32_MIN	include/stdint.h	/^#  define INT_FAST32_MIN	/;"	d
+INT_FAST32_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define INT_FAST32_MIN	/;"	d
+INT_FAST64_MAX	include/stdint.h	/^# define INT_FAST64_MAX	/;"	d
+INT_FAST64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_FAST64_MAX	/;"	d
+INT_FAST64_MIN	include/stdint.h	/^# define INT_FAST64_MIN	/;"	d
+INT_FAST64_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_FAST64_MIN	/;"	d
+INT_FAST8_MAX	include/stdint.h	/^# define INT_FAST8_MAX	/;"	d
+INT_FAST8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_FAST8_MAX	/;"	d
+INT_FAST8_MIN	include/stdint.h	/^# define INT_FAST8_MIN	/;"	d
+INT_FAST8_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_FAST8_MIN	/;"	d
+INT_LEAST16_MAX	include/stdint.h	/^# define INT_LEAST16_MAX	/;"	d
+INT_LEAST16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST16_MAX	/;"	d
+INT_LEAST16_MIN	include/stdint.h	/^# define INT_LEAST16_MIN	/;"	d
+INT_LEAST16_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST16_MIN	/;"	d
+INT_LEAST32_MAX	include/stdint.h	/^# define INT_LEAST32_MAX	/;"	d
+INT_LEAST32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST32_MAX	/;"	d
+INT_LEAST32_MIN	include/stdint.h	/^# define INT_LEAST32_MIN	/;"	d
+INT_LEAST32_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST32_MIN	/;"	d
+INT_LEAST64_MAX	include/stdint.h	/^# define INT_LEAST64_MAX	/;"	d
+INT_LEAST64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST64_MAX	/;"	d
+INT_LEAST64_MIN	include/stdint.h	/^# define INT_LEAST64_MIN	/;"	d
+INT_LEAST64_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST64_MIN	/;"	d
+INT_LEAST8_MAX	include/stdint.h	/^# define INT_LEAST8_MAX	/;"	d
+INT_LEAST8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST8_MAX	/;"	d
+INT_LEAST8_MIN	include/stdint.h	/^# define INT_LEAST8_MIN	/;"	d
+INT_LEAST8_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define INT_LEAST8_MIN	/;"	d
+IRQ_STACK_SIZE	include/MemoryMap.h	/^#define IRQ_STACK_SIZE /;"	d
+IRQ_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define IRQ_STACK_SIZE /;"	d
+IRQ_STACK_START	include/MemoryMap.h	/^#define IRQ_STACK_START /;"	d
+IRQ_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define IRQ_STACK_START /;"	d
+IRQ_STACK_TOP	include/MemoryMap.h	/^#define IRQ_STACK_TOP /;"	d
+IRQ_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define IRQ_STACK_TOP /;"	d
+IntEnable	hal/rvpb/Timer.h	/^        uint32_t IntEnable:1;   \/\/5$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+IntEnable	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t IntEnable:1;   \/\/5$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+InterHdlr_fptr	hal/HalInterrupt.h	/^typedef void (*InterHdlr_fptr)(void);$/;"	t	typeref:typename:void (*)(void)
+InterHdlr_fptr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/HalInterrupt.h	/^typedef void (*InterHdlr_fptr)(void);$/;"	t	typeref:typename:void (*)(void)
+InterruptAck_t	hal/rvpb/Interrupt.h	/^typedef union InterruptAck_t$/;"	u
+InterruptAck_t	hal/rvpb/Interrupt.h	/^} InterruptAck_t;$/;"	t	typeref:union:InterruptAck_t
+InterruptAck_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union InterruptAck_t$/;"	u
+InterruptAck_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} InterruptAck_t;$/;"	t	typeref:union:InterruptAck_t
+InterruptID	hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:EndOfInterrupt_t::__anon19c65b350508	typeref:typename:uint32_t:10
+InterruptID	hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:HighestPendInter_t::__anon19c65b350708	typeref:typename:uint32_t:10
+InterruptID	hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:InterruptAck_t::__anon19c65b350408	typeref:typename:uint32_t:10
+InterruptID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:EndOfInterrupt_t::__anone243bf4e0508	typeref:typename:uint32_t:10
+InterruptID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:HighestPendInter_t::__anone243bf4e0708	typeref:typename:uint32_t:10
+InterruptID	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t InterruptID:10;    \/\/ 9:0$/;"	m	struct:InterruptAck_t::__anone243bf4e0408	typeref:typename:uint32_t:10
+Irq_Handler	boot/Handler.c	/^__attribute__ ((interrupt ("IRQ"))) void Irq_Handler(void){$/;"	f	typeref:typename:void
+Irq_Handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Handler.c	/^ __attribute__ ((interrupt ("IRQ"))) void Irq_Handler(void)$/;"	f	typeref:typename:void
+LBE	hal/rvpb/Uart.h	/^        uint32_t LBE:1;         \/\/ 7$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+LBE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t LBE:1;         \/\/ 7$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+LD	Makefile	/^LD = arm-none-eabi-gcc$/;"	m
+LD	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^LD = arm-none-eabi-gcc$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -nostartfiles -nostdlib -nodefaultlibs -static -lgcc $/;"	m
+LDFLAGS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^LDFLAGS = -nostartfiles -nostdlib -nodefaultlibs -static -lgcc$/;"	m
+LIB_ARMCPU_H_	lib/armcpu.h	/^#define LIB_ARMCPU_H_$/;"	d
+LIB_ARMCPU_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/armcpu.h	/^#define LIB_ARMCPU_H_$/;"	d
+LIB_STDIO_H_	lib/stdio.h	/^#define LIB_STDIO_H_$/;"	d
+LIB_STDIO_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.h	/^#define LIB_STDIO_H_$/;"	d
+LIB_STDLIB_H_	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdlib.h	/^#define LIB_STDLIB_H_$/;"	d
+LINKER_SCRIPT	Makefile	/^LINKER_SCRIPT = .\/navilos.ld$/;"	m
+LINKER_SCRIPT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^LINKER_SCRIPT = .\/navilos.ld$/;"	m
+MAP_FILE	Makefile	/^MAP_FILE = build\/navilos.map$/;"	m
+MAP_FILE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^MAP_FILE = build\/navilos.map$/;"	m
+MCPU	Makefile	/^MCPU = cortex-a8$/;"	m
+MCPU	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^MCPU = cortex-a8$/;"	m
+NULL	include/stdint.h	/^#define NULL /;"	d
+NULL	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#define NULL /;"	d
+OC	Makefile	/^OC = arm-none-eabi-objcopy$/;"	m
+OC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^OC = arm-none-eabi-objcopy$/;"	m
+OE	hal/rvpb/Uart.h	/^        uint32_t OE:1;      \/\/ 11$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:1
+OE	hal/rvpb/Uart.h	/^        uint32_t OE:1;      \/\/ 3$/;"	m	struct:UARTRSR_t::__anon7165b5840208	typeref:typename:uint32_t:1
+OE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OE:1;      \/\/ 11$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:1
+OE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OE:1;      \/\/ 3$/;"	m	struct:UARTRSR_t::__anonc8a4e5fd0208	typeref:typename:uint32_t:1
+OEIC	hal/rvpb/Uart.h	/^        uint32_t OEIC:1;    \/\/ 10$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+OEIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OEIC:1;    \/\/ 10$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+OEIM	hal/rvpb/Uart.h	/^        uint32_t OEIM:1;    \/\/ 10$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+OEIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OEIM:1;    \/\/ 10$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+OEMIS	hal/rvpb/Uart.h	/^        uint32_t OEMIS:1;   \/\/ 10$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+OEMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OEMIS:1;   \/\/ 10$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+OERIS	hal/rvpb/Uart.h	/^        uint32_t OERIS:1;   \/\/ 10$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+OERIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t OERIS:1;   \/\/ 10$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+OneShot	hal/rvpb/Timer.h	/^        uint32_t OneShot:1;     \/\/0$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+OneShot	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t OneShot:1;     \/\/0$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+Out1	hal/rvpb/Uart.h	/^        uint32_t Out1:1;        \/\/ 12$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+Out1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t Out1:1;        \/\/ 12$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+Out2	hal/rvpb/Uart.h	/^        uint32_t Out2:1;        \/\/ 13$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+Out2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t Out2:1;        \/\/ 13$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+PE	hal/rvpb/Uart.h	/^        uint32_t PE:1;      \/\/ 1$/;"	m	struct:UARTRSR_t::__anon7165b5840208	typeref:typename:uint32_t:1
+PE	hal/rvpb/Uart.h	/^        uint32_t PE:1;      \/\/ 9$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:1
+PE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PE:1;      \/\/ 1$/;"	m	struct:UARTRSR_t::__anonc8a4e5fd0208	typeref:typename:uint32_t:1
+PE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PE:1;      \/\/ 9$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:1
+PEIC	hal/rvpb/Uart.h	/^        uint32_t PEIC:1;    \/\/ 8$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+PEIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PEIC:1;    \/\/ 8$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+PEIM	hal/rvpb/Uart.h	/^        uint32_t PEIM:1;    \/\/ 8$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+PEIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PEIM:1;    \/\/ 8$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+PEMIS	hal/rvpb/Uart.h	/^        uint32_t PEMIS:1;   \/\/ 8$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+PEMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PEMIS:1;   \/\/ 8$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+PEN	hal/rvpb/Uart.h	/^        uint32_t PEN:1;     \/\/ 1$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+PEN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PEN:1;     \/\/ 1$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+PERIS	hal/rvpb/Uart.h	/^        uint32_t PERIS:1;   \/\/ 8$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+PERIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t PERIS:1;   \/\/ 8$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+PL011_t	hal/rvpb/Uart.h	/^typedef struct PL011_t$/;"	s
+PL011_t	hal/rvpb/Uart.h	/^} PL011_t;$/;"	t	typeref:struct:PL011_t
+PL011_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef struct PL011_t$/;"	s
+PL011_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} PL011_t;$/;"	t	typeref:struct:PL011_t
+PRINTF_BUF_LEN	lib/stdio.c	/^#define PRINTF_BUF_LEN /;"	d	file:
+PRINTF_BUF_LEN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^#define PRINTF_BUF_LEN /;"	d	file:
+PTRDIFF_MAX	include/stdint.h	/^#  define PTRDIFF_MAX	/;"	d
+PTRDIFF_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define PTRDIFF_MAX	/;"	d
+PTRDIFF_MIN	include/stdint.h	/^#  define PTRDIFF_MIN	/;"	d
+PTRDIFF_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define PTRDIFF_MIN	/;"	d
+Printf_test	boot/main.c	/^static void Printf_test(void){$/;"	f	typeref:typename:void	file:
+Printf_test	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Main.c	/^static void Printf_test(void)$/;"	f	typeref:typename:void	file:
+Priority	hal/rvpb/Interrupt.h	/^        uint32_t Priority:4;        \/\/ 7:4$/;"	m	struct:RunningInterrupt_t::__anon19c65b350608	typeref:typename:uint32_t:4
+Priority	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Priority:4;        \/\/ 7:4$/;"	m	struct:RunningInterrupt_t::__anone243bf4e0608	typeref:typename:uint32_t:4
+PriorityMask_t	hal/rvpb/Interrupt.h	/^typedef union PriorityMask_t$/;"	u
+PriorityMask_t	hal/rvpb/Interrupt.h	/^} PriorityMask_t;$/;"	t	typeref:union:PriorityMask_t
+PriorityMask_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union PriorityMask_t$/;"	u
+PriorityMask_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} PriorityMask_t;$/;"	t	typeref:union:PriorityMask_t
+Prioritymask	hal/rvpb/Interrupt.h	/^        uint32_t Prioritymask:4;    \/\/ 7:4$/;"	m	struct:PriorityMask_t::__anon19c65b350208	typeref:typename:uint32_t:4
+Prioritymask	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Prioritymask:4;    \/\/ 7:4$/;"	m	struct:PriorityMask_t::__anone243bf4e0208	typeref:typename:uint32_t:4
+RI	hal/rvpb/Uart.h	/^        uint32_t RI:1;      \/\/ 8$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+RI	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RI:1;      \/\/ 8$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+RIMIC	hal/rvpb/Uart.h	/^        uint32_t RIMIC:1;   \/\/ 0$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+RIMIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RIMIC:1;   \/\/ 0$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+RIMIM	hal/rvpb/Uart.h	/^        uint32_t RIMIM:1;   \/\/ 0$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+RIMIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RIMIM:1;   \/\/ 0$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+RIMMIS	hal/rvpb/Uart.h	/^        uint32_t RIMMIS:1;  \/\/ 0$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+RIMMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RIMMIS:1;  \/\/ 0$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+RIRMIS	hal/rvpb/Uart.h	/^        uint32_t RIRMIS:1;  \/\/ 0$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+RIRMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RIRMIS:1;  \/\/ 0$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+RTIC	hal/rvpb/Uart.h	/^        uint32_t RTIC:1;    \/\/ 6$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+RTIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTIC:1;    \/\/ 6$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+RTIM	hal/rvpb/Uart.h	/^        uint32_t RTIM:1;    \/\/ 6$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+RTIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTIM:1;    \/\/ 6$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+RTMIS	hal/rvpb/Uart.h	/^        uint32_t RTMIS:1;   \/\/ 6$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+RTMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTMIS:1;   \/\/ 6$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+RTRIS	hal/rvpb/Uart.h	/^        uint32_t RTRIS:1;   \/\/ 6$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+RTRIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTRIS:1;   \/\/ 6$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+RTS	hal/rvpb/Uart.h	/^        uint32_t RTS:1;         \/\/ 11$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+RTS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTS:1;         \/\/ 11$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+RTSEn	hal/rvpb/Uart.h	/^        uint32_t RTSEn:1;       \/\/ 14$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+RTSEn	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RTSEn:1;       \/\/ 14$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+RXDMAE	hal/rvpb/Uart.h	/^        uint32_t RXDMAE:1;  \/\/ 0$/;"	m	struct:UARTDMACR_t::__anon7165b5840e08	typeref:typename:uint32_t:1
+RXDMAE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXDMAE:1;  \/\/ 0$/;"	m	struct:UARTDMACR_t::__anonc8a4e5fd0e08	typeref:typename:uint32_t:1
+RXE	hal/rvpb/Uart.h	/^        uint32_t RXE:1;         \/\/ 9$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+RXE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXE:1;         \/\/ 9$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+RXFE	hal/rvpb/Uart.h	/^        uint32_t RXFE:1;    \/\/ 4$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+RXFE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXFE:1;    \/\/ 4$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+RXFF	hal/rvpb/Uart.h	/^        uint32_t RXFF:1;    \/\/ 6$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+RXFF	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXFF:1;    \/\/ 6$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+RXIC	hal/rvpb/Uart.h	/^        uint32_t RXIC:1;    \/\/ 4$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+RXIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXIC:1;    \/\/ 4$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+RXIFLSEL	hal/rvpb/Uart.h	/^        uint32_t RXIFLSEL:3;    \/\/ 5:3$/;"	m	struct:UARTIFLS_t::__anon7165b5840908	typeref:typename:uint32_t:3
+RXIFLSEL	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXIFLSEL:3;    \/\/ 5:3$/;"	m	struct:UARTIFLS_t::__anonc8a4e5fd0908	typeref:typename:uint32_t:3
+RXIM	hal/rvpb/Uart.h	/^        uint32_t RXIM:1;    \/\/ 4$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+RXIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXIM:1;    \/\/ 4$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+RXMIS	hal/rvpb/Uart.h	/^        uint32_t RXMIS:1;   \/\/ 4$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+RXMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXMIS:1;   \/\/ 4$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+RXRIS	hal/rvpb/Uart.h	/^        uint32_t RXRIS:1;   \/\/ 4$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+RXRIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t RXRIS:1;   \/\/ 4$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+Reserved	hal/rvpb/Interrupt.h	/^        uint32_t Reserved:4;        \/\/ 3:0$/;"	m	struct:PriorityMask_t::__anon19c65b350208	typeref:typename:uint32_t:4
+Reserved	hal/rvpb/Interrupt.h	/^        uint32_t Reserved:4;        \/\/ 3:0$/;"	m	struct:RunningInterrupt_t::__anon19c65b350608	typeref:typename:uint32_t:4
+Reserved	hal/rvpb/Timer.h	/^        uint32_t Reserved:31;   \/\/31:1$/;"	m	struct:TimerXMIS_t::__anon6369d4490308	typeref:typename:uint32_t:31
+Reserved	hal/rvpb/Timer.h	/^        uint32_t Reserved:31;   \/\/31:1$/;"	m	struct:TimerXRIS_t::__anon6369d4490208	typeref:typename:uint32_t:31
+Reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Reserved:4;        \/\/ 3:0$/;"	m	struct:PriorityMask_t::__anone243bf4e0208	typeref:typename:uint32_t:4
+Reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t Reserved:4;        \/\/ 3:0$/;"	m	struct:RunningInterrupt_t::__anone243bf4e0608	typeref:typename:uint32_t:4
+Reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t Reserved:31;   \/\/31:1$/;"	m	struct:TimerXMIS_t::__anona28f13e20308	typeref:typename:uint32_t:31
+Reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t Reserved:31;   \/\/31:1$/;"	m	struct:TimerXRIS_t::__anona28f13e20208	typeref:typename:uint32_t:31
+Reserved0	hal/rvpb/Timer.h	/^        uint32_t Reserved0:1;   \/\/4$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+Reserved0	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t Reserved0:1;   \/\/4$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+Reserved1	hal/rvpb/Timer.h	/^        uint32_t Reserved1:24;  \/\/31:8$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:24
+Reserved1	hal/rvpb/Uart.h	/^        uint32_t Reserved1:4;   \/\/ 6:3$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:4
+Reserved1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t Reserved1:24;  \/\/31:8$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:24
+Reserved1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t Reserved1:4;   \/\/ 6:3$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:4
+RunningInterrupt_t	hal/rvpb/Interrupt.h	/^typedef union RunningInterrupt_t$/;"	u
+RunningInterrupt_t	hal/rvpb/Interrupt.h	/^} RunningInterrupt_t;$/;"	t	typeref:union:RunningInterrupt_t
+RunningInterrupt_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^typedef union RunningInterrupt_t$/;"	u
+RunningInterrupt_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^} RunningInterrupt_t;$/;"	t	typeref:union:RunningInterrupt_t
+SET_BIT	include/memio.h	/^#define SET_BIT(/;"	d
+SET_BIT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/memio.h	/^#define SET_BIT(/;"	d
+SIG_ATOMIC_MAX	include/stdint.h	/^# define SIG_ATOMIC_MAX	/;"	d
+SIG_ATOMIC_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define SIG_ATOMIC_MAX	/;"	d
+SIG_ATOMIC_MIN	include/stdint.h	/^# define SIG_ATOMIC_MIN	/;"	d
+SIG_ATOMIC_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define SIG_ATOMIC_MIN	/;"	d
+SIREN	hal/rvpb/Uart.h	/^        uint32_t SIREN:1;       \/\/ 1$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+SIREN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t SIREN:1;       \/\/ 1$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+SIRLP	hal/rvpb/Uart.h	/^        uint32_t SIRLP:1;       \/\/ 2$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+SIRLP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t SIRLP:1;       \/\/ 2$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+SIZE_MAX	include/stdint.h	/^#   define SIZE_MAX	/;"	d
+SIZE_MAX	include/stdint.h	/^#  define SIZE_MAX	/;"	d
+SIZE_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#   define SIZE_MAX	/;"	d
+SIZE_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define SIZE_MAX	/;"	d
+SPS	hal/rvpb/Uart.h	/^        uint32_t SPS:1;     \/\/ 7$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+SPS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t SPS:1;     \/\/ 7$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+STP2	hal/rvpb/Uart.h	/^        uint32_t STP2:1;    \/\/ 3$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:1
+STP2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t STP2:1;    \/\/ 3$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:1
+SVC_STACK_SIZE	include/MemoryMap.h	/^#define SVC_STACK_SIZE /;"	d
+SVC_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define SVC_STACK_SIZE /;"	d
+SVC_STACK_START	include/MemoryMap.h	/^#define SVC_STACK_START /;"	d
+SVC_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define SVC_STACK_START /;"	d
+SVC_STACK_TOP	include/MemoryMap.h	/^#define SVC_STACK_TOP /;"	d
+SVC_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define SVC_STACK_TOP /;"	d
+TARGET	Makefile	/^TARGET = rvpb$/;"	m
+TARGET	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^TARGET = rvpb$/;"	m
+TASK_STACK_SIZE	include/MemoryMap.h	/^#define TASK_STACK_SIZE /;"	d
+TASK_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define TASK_STACK_SIZE /;"	d
+TASK_STACK_START	include/MemoryMap.h	/^#define TASK_STACK_START /;"	d
+TASK_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define TASK_STACK_START /;"	d
+TIMER_10HZ_INTERVAL	hal/rvpb/Timer.h	/^#define TIMER_10HZ_INTERVAL /;"	d
+TIMER_10HZ_INTERVAL	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_10HZ_INTERVAL /;"	d
+TIMER_16BIT_COUNTER	hal/rvpb/Timer.h	/^#define TIMER_16BIT_COUNTER /;"	d
+TIMER_16BIT_COUNTER	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_16BIT_COUNTER /;"	d
+TIMER_32BIT_COUNTER	hal/rvpb/Timer.h	/^#define TIMER_32BIT_COUNTER /;"	d
+TIMER_32BIT_COUNTER	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_32BIT_COUNTER /;"	d
+TIMER_CPU_BASE	hal/rvpb/Timer.h	/^#define TIMER_CPU_BASE /;"	d
+TIMER_CPU_BASE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_CPU_BASE /;"	d
+TIMER_FREERUNNING	hal/rvpb/Timer.h	/^#define TIMER_FREERUNNING /;"	d
+TIMER_FREERUNNING	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_FREERUNNING /;"	d
+TIMER_INTERRUPT	hal/rvpb/Timer.h	/^#define TIMER_INTERRUPT /;"	d
+TIMER_INTERRUPT	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_INTERRUPT /;"	d
+TIMER_PERIOIC	hal/rvpb/Timer.h	/^#define TIMER_PERIOIC /;"	d
+TIMER_PERIOIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^#define TIMER_PERIOIC /;"	d
+TXDMAE	hal/rvpb/Uart.h	/^        uint32_t TXDMAE:1;  \/\/ 1$/;"	m	struct:UARTDMACR_t::__anon7165b5840e08	typeref:typename:uint32_t:1
+TXDMAE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXDMAE:1;  \/\/ 1$/;"	m	struct:UARTDMACR_t::__anonc8a4e5fd0e08	typeref:typename:uint32_t:1
+TXE	hal/rvpb/Uart.h	/^        uint32_t TXE:1;         \/\/ 8$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+TXE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXE:1;         \/\/ 8$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+TXFE	hal/rvpb/Uart.h	/^        uint32_t TXFE:1;    \/\/ 7$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+TXFE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXFE:1;    \/\/ 7$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+TXFF	hal/rvpb/Uart.h	/^        uint32_t TXFF:1;    \/\/ 5$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:1
+TXFF	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXFF:1;    \/\/ 5$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:1
+TXIC	hal/rvpb/Uart.h	/^        uint32_t TXIC:1;    \/\/ 5$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:1
+TXIC	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXIC:1;    \/\/ 5$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:1
+TXIFLSEL	hal/rvpb/Uart.h	/^        uint32_t TXIFLSEL:3;    \/\/ 2:0$/;"	m	struct:UARTIFLS_t::__anon7165b5840908	typeref:typename:uint32_t:3
+TXIFLSEL	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXIFLSEL:3;    \/\/ 2:0$/;"	m	struct:UARTIFLS_t::__anonc8a4e5fd0908	typeref:typename:uint32_t:3
+TXIM	hal/rvpb/Uart.h	/^        uint32_t TXIM:1;    \/\/ 5$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:1
+TXIM	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXIM:1;    \/\/ 5$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:1
+TXMIS	hal/rvpb/Uart.h	/^        uint32_t TXMIS:1;   \/\/ 5$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:1
+TXMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXMIS:1;   \/\/ 5$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:1
+TXRIS	hal/rvpb/Uart.h	/^        uint32_t TXRIS:1;   \/\/ 5$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:1
+TXRIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t TXRIS:1;   \/\/ 5$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:1
+Timer	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Regs.c	/^volatile Timer_t*   Timer   = (Timer_t*)TIMER_CPU_BASE;$/;"	v	typeref:typename:volatile Timer_t *
+TimerEn	hal/rvpb/Timer.h	/^        uint32_t TimerEn:1;     \/\/7$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+TimerEn	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerEn:1;     \/\/7$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+TimerMode	hal/rvpb/Timer.h	/^        uint32_t TimerMode:1;   \/\/6$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+TimerMode	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerMode:1;   \/\/6$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+TimerPre	hal/rvpb/Timer.h	/^        uint32_t TimerPre:2;    \/\/3:2$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:2
+TimerPre	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerPre:2;    \/\/3:2$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:2
+TimerSize	hal/rvpb/Timer.h	/^        uint32_t TimerSize:1;   \/\/1$/;"	m	struct:TimerXControl_t::__anon6369d4490108	typeref:typename:uint32_t:1
+TimerSize	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerSize:1;   \/\/1$/;"	m	struct:TimerXControl_t::__anona28f13e20108	typeref:typename:uint32_t:1
+TimerXControl_t	hal/rvpb/Timer.h	/^typedef union TimerXControl_t$/;"	u
+TimerXControl_t	hal/rvpb/Timer.h	/^} TimerXControl_t;$/;"	t	typeref:union:TimerXControl_t
+TimerXControl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^typedef union TimerXControl_t$/;"	u
+TimerXControl_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^} TimerXControl_t;$/;"	t	typeref:union:TimerXControl_t
+TimerXMIS	hal/rvpb/Timer.h	/^        uint32_t TimerXMIS:1;   \/\/0$/;"	m	struct:TimerXMIS_t::__anon6369d4490308	typeref:typename:uint32_t:1
+TimerXMIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerXMIS:1;   \/\/0$/;"	m	struct:TimerXMIS_t::__anona28f13e20308	typeref:typename:uint32_t:1
+TimerXMIS_t	hal/rvpb/Timer.h	/^typedef union TimerXMIS_t$/;"	u
+TimerXMIS_t	hal/rvpb/Timer.h	/^} TimerXMIS_t;$/;"	t	typeref:union:TimerXMIS_t
+TimerXMIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^typedef union TimerXMIS_t$/;"	u
+TimerXMIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^} TimerXMIS_t;$/;"	t	typeref:union:TimerXMIS_t
+TimerXRIS	hal/rvpb/Timer.h	/^        uint32_t TimerXRIS:1;   \/\/0$/;"	m	struct:TimerXRIS_t::__anon6369d4490208	typeref:typename:uint32_t:1
+TimerXRIS	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^        uint32_t TimerXRIS:1;   \/\/0$/;"	m	struct:TimerXRIS_t::__anona28f13e20208	typeref:typename:uint32_t:1
+TimerXRIS_t	hal/rvpb/Timer.h	/^typedef union TimerXRIS_t$/;"	u
+TimerXRIS_t	hal/rvpb/Timer.h	/^} TimerXRIS_t;$/;"	t	typeref:union:TimerXRIS_t
+TimerXRIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^typedef union TimerXRIS_t$/;"	u
+TimerXRIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^} TimerXRIS_t;$/;"	t	typeref:union:TimerXRIS_t
+Timer_t	hal/rvpb/Timer.h	/^typedef struct Timer_t$/;"	s
+Timer_t	hal/rvpb/Timer.h	/^} Timer_t;$/;"	t	typeref:struct:Timer_t
+Timer_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^typedef struct Timer_t$/;"	s
+Timer_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^} Timer_t;$/;"	t	typeref:struct:Timer_t
+Timer_test	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Main.c	/^static void Timer_test(void)$/;"	f	typeref:typename:void	file:
+UARTCR_t	hal/rvpb/Uart.h	/^typedef union UARTCR_t$/;"	u
+UARTCR_t	hal/rvpb/Uart.h	/^} UARTCR_t;$/;"	t	typeref:union:UARTCR_t
+UARTCR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTCR_t$/;"	u
+UARTCR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTCR_t;$/;"	t	typeref:union:UARTCR_t
+UARTDMACR_t	hal/rvpb/Uart.h	/^typedef union UARTDMACR_t$/;"	u
+UARTDMACR_t	hal/rvpb/Uart.h	/^} UARTDMACR_t;$/;"	t	typeref:union:UARTDMACR_t
+UARTDMACR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTDMACR_t$/;"	u
+UARTDMACR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTDMACR_t;$/;"	t	typeref:union:UARTDMACR_t
+UARTDR_t	hal/rvpb/Uart.h	/^typedef union UARTDR_t$/;"	u
+UARTDR_t	hal/rvpb/Uart.h	/^} UARTDR_t;$/;"	t	typeref:union:UARTDR_t
+UARTDR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTDR_t$/;"	u
+UARTDR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTDR_t;$/;"	t	typeref:union:UARTDR_t
+UARTEN	hal/rvpb/Uart.h	/^        uint32_t UARTEN:1;      \/\/ 0$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:1
+UARTEN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t UARTEN:1;      \/\/ 0$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:1
+UARTFBRD_t	hal/rvpb/Uart.h	/^typedef union UARTFBRD_t$/;"	u
+UARTFBRD_t	hal/rvpb/Uart.h	/^} UARTFBRD_t;$/;"	t	typeref:union:UARTFBRD_t
+UARTFBRD_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTFBRD_t$/;"	u
+UARTFBRD_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTFBRD_t;$/;"	t	typeref:union:UARTFBRD_t
+UARTFR_t	hal/rvpb/Uart.h	/^typedef union UARTFR_t$/;"	u
+UARTFR_t	hal/rvpb/Uart.h	/^} UARTFR_t;$/;"	t	typeref:union:UARTFR_t
+UARTFR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTFR_t$/;"	u
+UARTFR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTFR_t;$/;"	t	typeref:union:UARTFR_t
+UARTIBRD_t	hal/rvpb/Uart.h	/^typedef union UARTIBRD_t$/;"	u
+UARTIBRD_t	hal/rvpb/Uart.h	/^} UARTIBRD_t;$/;"	t	typeref:union:UARTIBRD_t
+UARTIBRD_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTIBRD_t$/;"	u
+UARTIBRD_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTIBRD_t;$/;"	t	typeref:union:UARTIBRD_t
+UARTICR_t	hal/rvpb/Uart.h	/^typedef union UARTICR_t$/;"	u
+UARTICR_t	hal/rvpb/Uart.h	/^} UARTICR_t;$/;"	t	typeref:union:UARTICR_t
+UARTICR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTICR_t$/;"	u
+UARTICR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTICR_t;$/;"	t	typeref:union:UARTICR_t
+UARTIFLS_t	hal/rvpb/Uart.h	/^typedef union UARTIFLS_t$/;"	u
+UARTIFLS_t	hal/rvpb/Uart.h	/^} UARTIFLS_t;$/;"	t	typeref:union:UARTIFLS_t
+UARTIFLS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTIFLS_t$/;"	u
+UARTIFLS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTIFLS_t;$/;"	t	typeref:union:UARTIFLS_t
+UARTILPR_t	hal/rvpb/Uart.h	/^typedef union UARTILPR_t$/;"	u
+UARTILPR_t	hal/rvpb/Uart.h	/^} UARTILPR_t;$/;"	t	typeref:union:UARTILPR_t
+UARTILPR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTILPR_t$/;"	u
+UARTILPR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTILPR_t;$/;"	t	typeref:union:UARTILPR_t
+UARTIMSC_t	hal/rvpb/Uart.h	/^typedef union UARTIMSC_t$/;"	u
+UARTIMSC_t	hal/rvpb/Uart.h	/^} UARTIMSC_t;$/;"	t	typeref:union:UARTIMSC_t
+UARTIMSC_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTIMSC_t$/;"	u
+UARTIMSC_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTIMSC_t;$/;"	t	typeref:union:UARTIMSC_t
+UARTLCR_H_t	hal/rvpb/Uart.h	/^typedef union UARTLCR_H_t$/;"	u
+UARTLCR_H_t	hal/rvpb/Uart.h	/^} UARTLCR_H_t;$/;"	t	typeref:union:UARTLCR_H_t
+UARTLCR_H_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTLCR_H_t$/;"	u
+UARTLCR_H_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTLCR_H_t;$/;"	t	typeref:union:UARTLCR_H_t
+UARTMIS_t	hal/rvpb/Uart.h	/^typedef union UARTMIS_t$/;"	u
+UARTMIS_t	hal/rvpb/Uart.h	/^} UARTMIS_t;$/;"	t	typeref:union:UARTMIS_t
+UARTMIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTMIS_t$/;"	u
+UARTMIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTMIS_t;$/;"	t	typeref:union:UARTMIS_t
+UARTRIS_t	hal/rvpb/Uart.h	/^typedef union UARTRIS_t$/;"	u
+UARTRIS_t	hal/rvpb/Uart.h	/^} UARTRIS_t;$/;"	t	typeref:union:UARTRIS_t
+UARTRIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTRIS_t$/;"	u
+UARTRIS_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTRIS_t;$/;"	t	typeref:union:UARTRIS_t
+UARTRSR_t	hal/rvpb/Uart.h	/^typedef union UARTRSR_t$/;"	u
+UARTRSR_t	hal/rvpb/Uart.h	/^} UARTRSR_t;$/;"	t	typeref:union:UARTRSR_t
+UARTRSR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^typedef union UARTRSR_t$/;"	u
+UARTRSR_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^} UARTRSR_t;$/;"	t	typeref:union:UARTRSR_t
+UART_BASE_ADDRESS0	hal/rvpb/Uart.h	/^#define UART_BASE_ADDRESS0 /;"	d
+UART_BASE_ADDRESS0	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^#define UART_BASE_ADDRESS0 /;"	d
+UART_INTERRUPT0	hal/rvpb/Uart.h	/^#define UART_INTERRUPT0 /;"	d
+UART_INTERRUPT0	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^#define UART_INTERRUPT0 /;"	d
+UINT16_C	include/stdint.h	/^# define UINT16_C(/;"	d
+UINT16_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT16_C(/;"	d
+UINT16_MAX	include/stdint.h	/^# define UINT16_MAX	/;"	d
+UINT16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT16_MAX	/;"	d
+UINT32_C	include/stdint.h	/^# define UINT32_C(/;"	d
+UINT32_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT32_C(/;"	d
+UINT32_MAX	include/stdint.h	/^# define UINT32_MAX	/;"	d
+UINT32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT32_MAX	/;"	d
+UINT64_C	include/stdint.h	/^#  define UINT64_C(/;"	d
+UINT64_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define UINT64_C(/;"	d
+UINT64_MAX	include/stdint.h	/^# define UINT64_MAX	/;"	d
+UINT64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT64_MAX	/;"	d
+UINT8_C	include/stdint.h	/^# define UINT8_C(/;"	d
+UINT8_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT8_C(/;"	d
+UINT8_MAX	include/stdint.h	/^# define UINT8_MAX	/;"	d
+UINT8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT8_MAX	/;"	d
+UINTMAX_C	include/stdint.h	/^#  define UINTMAX_C(/;"	d
+UINTMAX_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define UINTMAX_C(/;"	d
+UINTMAX_MAX	include/stdint.h	/^# define UINTMAX_MAX	/;"	d
+UINTMAX_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINTMAX_MAX	/;"	d
+UINTPTR_MAX	include/stdint.h	/^#  define UINTPTR_MAX	/;"	d
+UINTPTR_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define UINTPTR_MAX	/;"	d
+UINT_FAST16_MAX	include/stdint.h	/^#  define UINT_FAST16_MAX	/;"	d
+UINT_FAST16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define UINT_FAST16_MAX	/;"	d
+UINT_FAST32_MAX	include/stdint.h	/^#  define UINT_FAST32_MAX	/;"	d
+UINT_FAST32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define UINT_FAST32_MAX	/;"	d
+UINT_FAST64_MAX	include/stdint.h	/^# define UINT_FAST64_MAX	/;"	d
+UINT_FAST64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_FAST64_MAX	/;"	d
+UINT_FAST8_MAX	include/stdint.h	/^# define UINT_FAST8_MAX	/;"	d
+UINT_FAST8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_FAST8_MAX	/;"	d
+UINT_LEAST16_MAX	include/stdint.h	/^# define UINT_LEAST16_MAX	/;"	d
+UINT_LEAST16_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_LEAST16_MAX	/;"	d
+UINT_LEAST32_MAX	include/stdint.h	/^# define UINT_LEAST32_MAX	/;"	d
+UINT_LEAST32_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_LEAST32_MAX	/;"	d
+UINT_LEAST64_MAX	include/stdint.h	/^# define UINT_LEAST64_MAX	/;"	d
+UINT_LEAST64_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_LEAST64_MAX	/;"	d
+UINT_LEAST8_MAX	include/stdint.h	/^# define UINT_LEAST8_MAX	/;"	d
+UINT_LEAST8_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define UINT_LEAST8_MAX	/;"	d
+UND_STACK_SIZE	include/MemoryMap.h	/^#define UND_STACK_SIZE /;"	d
+UND_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define UND_STACK_SIZE /;"	d
+UND_STACK_START	include/MemoryMap.h	/^#define UND_STACK_START /;"	d
+UND_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define UND_STACK_START /;"	d
+UND_STACK_TOP	include/MemoryMap.h	/^#define UND_STACK_TOP /;"	d
+UND_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define UND_STACK_TOP /;"	d
+USRSYS_STACK_SIZE	include/MemoryMap.h	/^#define USRSYS_STACK_SIZE /;"	d
+USRSYS_STACK_SIZE	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define USRSYS_STACK_SIZE /;"	d
+USRSYS_STACK_START	include/MemoryMap.h	/^#define USRSYS_STACK_START /;"	d
+USRSYS_STACK_START	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define USRSYS_STACK_START /;"	d
+USRSYS_STACK_TOP	include/MemoryMap.h	/^#define USRSYS_STACK_TOP /;"	d
+USRSYS_STACK_TOP	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/MemoryMap.h	/^#define USRSYS_STACK_TOP /;"	d
+Uart	hal/rvpb/Regs.c	/^volatile PL011_t* Uart = (PL011_t*)UART_BASE_ADDRESS0;$/;"	v	typeref:typename:volatile PL011_t *
+Uart	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Regs.c	/^volatile PL011_t*   Uart    = (PL011_t*)UART_BASE_ADDRESS0;$/;"	v	typeref:typename:volatile PL011_t *
+VPATH	Makefile	/^VPATH = boot \\$/;"	m
+VPATH	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^VPATH = boot 			\\$/;"	m
+WCHAR_MAX	include/stdint.h	/^#  define WCHAR_MAX	/;"	d
+WCHAR_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define WCHAR_MAX	/;"	d
+WCHAR_MIN	include/stdint.h	/^#  define WCHAR_MIN	/;"	d
+WCHAR_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define WCHAR_MIN	/;"	d
+WINT_MAX	include/stdint.h	/^# define WINT_MAX	/;"	d
+WINT_MAX	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define WINT_MAX	/;"	d
+WINT_MIN	include/stdint.h	/^# define WINT_MIN	/;"	d
+WINT_MIN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define WINT_MIN	/;"	d
+WLEN	hal/rvpb/Uart.h	/^        uint32_t WLEN:2;    \/\/ 6:5$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:2
+WLEN	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t WLEN:2;    \/\/ 6:5$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:2
+_Bool	include/stdbool.h	/^#define _Bool	/;"	d
+_Bool	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define _Bool	/;"	d
+_STDBOOL_H	include/stdbool.h	/^#define _STDBOOL_H$/;"	d
+_STDBOOL_H	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define _STDBOOL_H$/;"	d
+_STDINT_H	include/stdint.h	/^#define _STDINT_H	/;"	d
+_STDINT_H	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#define _STDINT_H	/;"	d
+__INT64_C	include/stdint.h	/^#  define __INT64_C(/;"	d
+__INT64_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define __INT64_C(/;"	d
+__UINT64_C	include/stdint.h	/^#  define __UINT64_C(/;"	d
+__UINT64_C	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define __UINT64_C(/;"	d
+__anon19c65b350108	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:CpuControl_t
+__anon19c65b350208	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:PriorityMask_t
+__anon19c65b350308	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:BinaryPoint_t
+__anon19c65b350408	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:InterruptAck_t
+__anon19c65b350508	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:EndOfInterrupt_t
+__anon19c65b350608	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:RunningInterrupt_t
+__anon19c65b350708	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:HighestPendInter_t
+__anon19c65b350808	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:DistributorCtrl_t
+__anon19c65b350908	hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:ControllerType_t
+__anon6369d4490108	hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXControl_t
+__anon6369d4490208	hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXRIS_t
+__anon6369d4490308	hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXMIS_t
+__anon7165b5840108	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTDR_t
+__anon7165b5840208	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTRSR_t
+__anon7165b5840308	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTFR_t
+__anon7165b5840408	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTILPR_t
+__anon7165b5840508	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIBRD_t
+__anon7165b5840608	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTFBRD_t
+__anon7165b5840708	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTLCR_H_t
+__anon7165b5840808	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTCR_t
+__anon7165b5840908	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIFLS_t
+__anon7165b5840a08	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIMSC_t
+__anon7165b5840b08	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTRIS_t
+__anon7165b5840c08	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTMIS_t
+__anon7165b5840d08	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTICR_t
+__anon7165b5840e08	hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTDMACR_t
+__anona28f13e20108	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXControl_t
+__anona28f13e20208	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXRIS_t
+__anona28f13e20308	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    struct {$/;"	s	union:TimerXMIS_t
+__anonc8a4e5fd0108	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTDR_t
+__anonc8a4e5fd0208	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTRSR_t
+__anonc8a4e5fd0308	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTFR_t
+__anonc8a4e5fd0408	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTILPR_t
+__anonc8a4e5fd0508	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIBRD_t
+__anonc8a4e5fd0608	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTFBRD_t
+__anonc8a4e5fd0708	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTLCR_H_t
+__anonc8a4e5fd0808	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTCR_t
+__anonc8a4e5fd0908	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIFLS_t
+__anonc8a4e5fd0a08	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTIMSC_t
+__anonc8a4e5fd0b08	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTRIS_t
+__anonc8a4e5fd0c08	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTMIS_t
+__anonc8a4e5fd0d08	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTICR_t
+__anonc8a4e5fd0e08	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    struct {$/;"	s	union:UARTDMACR_t
+__anone243bf4e0108	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:CpuControl_t
+__anone243bf4e0208	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:PriorityMask_t
+__anone243bf4e0308	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:BinaryPoint_t
+__anone243bf4e0408	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:InterruptAck_t
+__anone243bf4e0508	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:EndOfInterrupt_t
+__anone243bf4e0608	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:RunningInterrupt_t
+__anone243bf4e0708	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:HighestPendInter_t
+__anone243bf4e0808	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:DistributorCtrl_t
+__anone243bf4e0908	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    struct {$/;"	s	union:ControllerType_t
+__bool_true_false_are_defined	include/stdbool.h	/^#define __bool_true_false_are_defined	/;"	d
+__bool_true_false_are_defined	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define __bool_true_false_are_defined	/;"	d
+__int8_t_defined	include/stdint.h	/^# define __int8_t_defined$/;"	d
+__int8_t_defined	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define __int8_t_defined$/;"	d
+__intptr_t_defined	include/stdint.h	/^#  define __intptr_t_defined$/;"	d
+__intptr_t_defined	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^#  define __intptr_t_defined$/;"	d
+__uint32_t_defined	include/stdint.h	/^# define __uint32_t_defined$/;"	d
+__uint32_t_defined	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^# define __uint32_t_defined$/;"	d
+all	Makefile	/^all: $(navilos)$/;"	t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:BinaryPoint_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:ControllerType_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:CpuControl_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:DistributorCtrl_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:EndOfInterrupt_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:HighestPendInter_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:InterruptAck_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:PriorityMask_t	typeref:typename:uint32_t
+all	hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:RunningInterrupt_t	typeref:typename:uint32_t
+all	hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXControl_t	typeref:typename:uint32_t
+all	hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXMIS_t	typeref:typename:uint32_t
+all	hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXRIS_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTCR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTDMACR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTDR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTFBRD_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTFR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIBRD_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTICR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIFLS_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTILPR_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIMSC_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTLCR_H_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTMIS_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTRIS_t	typeref:typename:uint32_t
+all	hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTRSR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^all: $(navilos)$/;"	t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:BinaryPoint_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:ControllerType_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:CpuControl_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:DistributorCtrl_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:EndOfInterrupt_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:HighestPendInter_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:InterruptAck_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:PriorityMask_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t all;$/;"	m	union:RunningInterrupt_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXControl_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXMIS_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t all;$/;"	m	union:TimerXRIS_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTCR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTDMACR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTDR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTFBRD_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTFR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIBRD_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTICR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIFLS_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTILPR_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTIMSC_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTLCR_H_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTMIS_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTRIS_t	typeref:typename:uint32_t
+all	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t all;$/;"	m	union:UARTRSR_t	typeref:typename:uint32_t
+binarypoint	hal/rvpb/Interrupt.h	/^    BinaryPoint_t      binarypoint;       \/\/0x008$/;"	m	struct:GicCput_t	typeref:typename:BinaryPoint_t
+binarypoint	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    BinaryPoint_t      binarypoint;       \/\/0x008$/;"	m	struct:GicCput_t	typeref:typename:BinaryPoint_t
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:BinaryPoint_t	typeref:struct:BinaryPoint_t::__anon19c65b350308
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:ControllerType_t	typeref:struct:ControllerType_t::__anon19c65b350908
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:CpuControl_t	typeref:struct:CpuControl_t::__anon19c65b350108
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:DistributorCtrl_t	typeref:struct:DistributorCtrl_t::__anon19c65b350808
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:EndOfInterrupt_t	typeref:struct:EndOfInterrupt_t::__anon19c65b350508
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:HighestPendInter_t	typeref:struct:HighestPendInter_t::__anon19c65b350708
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:InterruptAck_t	typeref:struct:InterruptAck_t::__anon19c65b350408
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:PriorityMask_t	typeref:struct:PriorityMask_t::__anon19c65b350208
+bits	hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:RunningInterrupt_t	typeref:struct:RunningInterrupt_t::__anon19c65b350608
+bits	hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXControl_t	typeref:struct:TimerXControl_t::__anon6369d4490108
+bits	hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXMIS_t	typeref:struct:TimerXMIS_t::__anon6369d4490308
+bits	hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXRIS_t	typeref:struct:TimerXRIS_t::__anon6369d4490208
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTCR_t	typeref:struct:UARTCR_t::__anon7165b5840808
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTDMACR_t	typeref:struct:UARTDMACR_t::__anon7165b5840e08
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTDR_t	typeref:struct:UARTDR_t::__anon7165b5840108
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTFBRD_t	typeref:struct:UARTFBRD_t::__anon7165b5840608
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTFR_t	typeref:struct:UARTFR_t::__anon7165b5840308
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIBRD_t	typeref:struct:UARTIBRD_t::__anon7165b5840508
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTICR_t	typeref:struct:UARTICR_t::__anon7165b5840d08
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIFLS_t	typeref:struct:UARTIFLS_t::__anon7165b5840908
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTILPR_t	typeref:struct:UARTILPR_t::__anon7165b5840408
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIMSC_t	typeref:struct:UARTIMSC_t::__anon7165b5840a08
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTLCR_H_t	typeref:struct:UARTLCR_H_t::__anon7165b5840708
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTMIS_t	typeref:struct:UARTMIS_t::__anon7165b5840c08
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTRIS_t	typeref:struct:UARTRIS_t::__anon7165b5840b08
+bits	hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTRSR_t	typeref:struct:UARTRSR_t::__anon7165b5840208
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:BinaryPoint_t	typeref:struct:BinaryPoint_t::__anone243bf4e0308
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:ControllerType_t	typeref:struct:ControllerType_t::__anone243bf4e0908
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:CpuControl_t	typeref:struct:CpuControl_t::__anone243bf4e0108
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:DistributorCtrl_t	typeref:struct:DistributorCtrl_t::__anone243bf4e0808
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:EndOfInterrupt_t	typeref:struct:EndOfInterrupt_t::__anone243bf4e0508
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:HighestPendInter_t	typeref:struct:HighestPendInter_t::__anone243bf4e0708
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:InterruptAck_t	typeref:struct:InterruptAck_t::__anone243bf4e0408
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:PriorityMask_t	typeref:struct:PriorityMask_t::__anone243bf4e0208
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    } bits;$/;"	m	union:RunningInterrupt_t	typeref:struct:RunningInterrupt_t::__anone243bf4e0608
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXControl_t	typeref:struct:TimerXControl_t::__anona28f13e20108
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXMIS_t	typeref:struct:TimerXMIS_t::__anona28f13e20308
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    } bits;$/;"	m	union:TimerXRIS_t	typeref:struct:TimerXRIS_t::__anona28f13e20208
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTCR_t	typeref:struct:UARTCR_t::__anonc8a4e5fd0808
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTDMACR_t	typeref:struct:UARTDMACR_t::__anonc8a4e5fd0e08
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTDR_t	typeref:struct:UARTDR_t::__anonc8a4e5fd0108
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTFBRD_t	typeref:struct:UARTFBRD_t::__anonc8a4e5fd0608
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTFR_t	typeref:struct:UARTFR_t::__anonc8a4e5fd0308
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIBRD_t	typeref:struct:UARTIBRD_t::__anonc8a4e5fd0508
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTICR_t	typeref:struct:UARTICR_t::__anonc8a4e5fd0d08
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIFLS_t	typeref:struct:UARTIFLS_t::__anonc8a4e5fd0908
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTILPR_t	typeref:struct:UARTILPR_t::__anonc8a4e5fd0408
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTIMSC_t	typeref:struct:UARTIMSC_t::__anonc8a4e5fd0a08
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTLCR_H_t	typeref:struct:UARTLCR_H_t::__anonc8a4e5fd0708
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTMIS_t	typeref:struct:UARTMIS_t::__anonc8a4e5fd0c08
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTRIS_t	typeref:struct:UARTRIS_t::__anonc8a4e5fd0b08
+bits	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    } bits;$/;"	m	union:UARTRSR_t	typeref:struct:UARTRSR_t::__anonc8a4e5fd0208
+bool	include/stdbool.h	/^#define bool	/;"	d
+bool	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define bool	/;"	d
+build/%.o	Makefile	/^build\/%.o: %.c$/;"	t
+build/%.o	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^build\/%.o: %.c$/;"	t
+build/%.os	Makefile	/^build\/%.os: %.S$/;"	t
+build/%.os	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^build\/%.os: %.S$/;"	t
+clean	Makefile	/^clean:$/;"	t
+clean	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^clean:$/;"	t
+clearenable1	hal/rvpb/Interrupt.h	/^    uint32_t            clearenable1;       \/\/0x184$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+clearenable1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            clearenable1;       \/\/0x184$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+clearenable2	hal/rvpb/Interrupt.h	/^    uint32_t            clearenable2;       \/\/0x188$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+clearenable2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            clearenable2;       \/\/0x188$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+controllertype	hal/rvpb/Interrupt.h	/^    ControllerType_t    controllertype;     \/\/0x004$/;"	m	struct:GicDist_t	typeref:typename:ControllerType_t
+controllertype	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    ControllerType_t    controllertype;     \/\/0x004$/;"	m	struct:GicDist_t	typeref:typename:ControllerType_t
+cpucontrol	hal/rvpb/Interrupt.h	/^    CpuControl_t       cpucontrol;        \/\/0x000$/;"	m	struct:GicCput_t	typeref:typename:CpuControl_t
+cpucontrol	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    CpuControl_t       cpucontrol;        \/\/0x000$/;"	m	struct:GicCput_t	typeref:typename:CpuControl_t
+debug	Makefile	/^debug: $(navilos)$/;"	t
+debug	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^debug: $(navilos)$/;"	t
+debug_printf	lib/stdio.c	/^uint32_t debug_printf(const char* format, ...){$/;"	f	typeref:typename:uint32_t
+debug_printf	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^uint32_t debug_printf(const char* format, ...)$/;"	f	typeref:typename:uint32_t
+delay	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdlib.c	/^void delay(uint32_t ms)$/;"	f	typeref:typename:void
+disable_fiq	lib/armcpu.c	/^void disable_fiq(void)$/;"	f	typeref:typename:void
+disable_fiq	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/armcpu.c	/^void disable_fiq(void)$/;"	f	typeref:typename:void
+disable_irq	lib/armcpu.c	/^void disable_irq(void)$/;"	f	typeref:typename:void
+disable_irq	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/armcpu.c	/^void disable_irq(void)$/;"	f	typeref:typename:void
+distributorctrl	hal/rvpb/Interrupt.h	/^    DistributorCtrl_t   distributorctrl;    \/\/0x000$/;"	m	struct:GicDist_t	typeref:typename:DistributorCtrl_t
+distributorctrl	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    DistributorCtrl_t   distributorctrl;    \/\/0x000$/;"	m	struct:GicDist_t	typeref:typename:DistributorCtrl_t
+enable_fiq	lib/armcpu.c	/^void enable_fiq(void)$/;"	f	typeref:typename:void
+enable_fiq	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/armcpu.c	/^void enable_fiq(void)$/;"	f	typeref:typename:void
+enable_irq	lib/armcpu.c	/^void enable_irq(void)$/;"	f	typeref:typename:void
+enable_irq	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/armcpu.c	/^void enable_irq(void)$/;"	f	typeref:typename:void
+endofinterrupt	hal/rvpb/Interrupt.h	/^    EndOfInterrupt_t   endofinterrupt;    \/\/0x010$/;"	m	struct:GicCput_t	typeref:typename:EndOfInterrupt_t
+endofinterrupt	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    EndOfInterrupt_t   endofinterrupt;    \/\/0x010$/;"	m	struct:GicCput_t	typeref:typename:EndOfInterrupt_t
+false	include/stdbool.h	/^#define false	/;"	d
+false	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define false	/;"	d
+gdb	Makefile	/^gdb:$/;"	t
+gdb	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^gdb:$/;"	t
+highestpendinter	hal/rvpb/Interrupt.h	/^    HighestPendInter_t highestpendinter;  \/\/0x018$/;"	m	struct:GicCput_t	typeref:typename:HighestPendInter_t
+highestpendinter	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    HighestPendInter_t highestpendinter;  \/\/0x018$/;"	m	struct:GicCput_t	typeref:typename:HighestPendInter_t
+int16_t	include/stdint.h	/^typedef short int		int16_t;$/;"	t	typeref:typename:short int
+int16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef short int		int16_t;$/;"	t	typeref:typename:short int
+int32_t	include/stdint.h	/^typedef int			int32_t;$/;"	t	typeref:typename:int
+int32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef int			int32_t;$/;"	t	typeref:typename:int
+int64_t	include/stdint.h	/^typedef long int		int64_t;$/;"	t	typeref:typename:long int
+int64_t	include/stdint.h	/^typedef long long int		int64_t;$/;"	t	typeref:typename:long long int
+int64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		int64_t;$/;"	t	typeref:typename:long int
+int64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long long int		int64_t;$/;"	t	typeref:typename:long long int
+int8_t	include/stdint.h	/^typedef signed char		int8_t;$/;"	t	typeref:typename:signed char
+int8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef signed char		int8_t;$/;"	t	typeref:typename:signed char
+int_fast16_t	include/stdint.h	/^typedef int			int_fast16_t;$/;"	t	typeref:typename:int
+int_fast16_t	include/stdint.h	/^typedef long int		int_fast16_t;$/;"	t	typeref:typename:long int
+int_fast16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef int			int_fast16_t;$/;"	t	typeref:typename:int
+int_fast16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		int_fast16_t;$/;"	t	typeref:typename:long int
+int_fast32_t	include/stdint.h	/^typedef int			int_fast32_t;$/;"	t	typeref:typename:int
+int_fast32_t	include/stdint.h	/^typedef long int		int_fast32_t;$/;"	t	typeref:typename:long int
+int_fast32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef int			int_fast32_t;$/;"	t	typeref:typename:int
+int_fast32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		int_fast32_t;$/;"	t	typeref:typename:long int
+int_fast64_t	include/stdint.h	/^typedef long int		int_fast64_t;$/;"	t	typeref:typename:long int
+int_fast64_t	include/stdint.h	/^typedef long long int		int_fast64_t;$/;"	t	typeref:typename:long long int
+int_fast64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		int_fast64_t;$/;"	t	typeref:typename:long int
+int_fast64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long long int		int_fast64_t;$/;"	t	typeref:typename:long long int
+int_fast8_t	include/stdint.h	/^typedef signed char		int_fast8_t;$/;"	t	typeref:typename:signed char
+int_fast8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef signed char		int_fast8_t;$/;"	t	typeref:typename:signed char
+int_least16_t	include/stdint.h	/^typedef short int		int_least16_t;$/;"	t	typeref:typename:short int
+int_least16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef short int		int_least16_t;$/;"	t	typeref:typename:short int
+int_least32_t	include/stdint.h	/^typedef int			int_least32_t;$/;"	t	typeref:typename:int
+int_least32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef int			int_least32_t;$/;"	t	typeref:typename:int
+int_least64_t	include/stdint.h	/^typedef long int		int_least64_t;$/;"	t	typeref:typename:long int
+int_least64_t	include/stdint.h	/^typedef long long int		int_least64_t;$/;"	t	typeref:typename:long long int
+int_least64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		int_least64_t;$/;"	t	typeref:typename:long int
+int_least64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long long int		int_least64_t;$/;"	t	typeref:typename:long long int
+int_least8_t	include/stdint.h	/^typedef signed char		int_least8_t;$/;"	t	typeref:typename:signed char
+int_least8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef signed char		int_least8_t;$/;"	t	typeref:typename:signed char
+internal_1ms_counter	hal/rvpb/Timer.c	/^static uint32_t internal_1ms_counter;$/;"	v	typeref:typename:uint32_t	file:
+internal_1ms_counter	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.c	/^static uint32_t internal_1ms_counter;$/;"	v	typeref:typename:uint32_t	file:
+interrupt_handler	hal/rvpb/Timer.c	/^static void interrupt_handler(void)$/;"	f	typeref:typename:void	file:
+interrupt_handler	hal/rvpb/Uart.c	/^static void interrupt_handler(void)$/;"	f	typeref:typename:void	file:
+interrupt_handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.c	/^static void interrupt_handler(void)$/;"	f	typeref:typename:void	file:
+interrupt_handler	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.c	/^static void interrupt_handler(void)$/;"	f	typeref:typename:void	file:
+interruptack	hal/rvpb/Interrupt.h	/^    InterruptAck_t     interruptack;      \/\/0x00C$/;"	m	struct:GicCput_t	typeref:typename:InterruptAck_t
+interruptack	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    InterruptAck_t     interruptack;      \/\/0x00C$/;"	m	struct:GicCput_t	typeref:typename:InterruptAck_t
+intmax_t	include/stdint.h	/^typedef long int		intmax_t;$/;"	t	typeref:typename:long int
+intmax_t	include/stdint.h	/^typedef long long int		intmax_t;$/;"	t	typeref:typename:long long int
+intmax_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		intmax_t;$/;"	t	typeref:typename:long int
+intmax_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long long int		intmax_t;$/;"	t	typeref:typename:long long int
+intptr_t	include/stdint.h	/^typedef int			intptr_t;$/;"	t	typeref:typename:int
+intptr_t	include/stdint.h	/^typedef long int		intptr_t;$/;"	t	typeref:typename:long int
+intptr_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef int			intptr_t;$/;"	t	typeref:typename:int
+intptr_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef long int		intptr_t;$/;"	t	typeref:typename:long int
+kill	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^kill:$/;"	t
+main	boot/main.c	/^void main(void){$/;"	f	typeref:typename:void
+main	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/boot/Main.c	/^void main(void)$/;"	f	typeref:typename:void
+navilos	Makefile	/^navilos = build\/navilos.axf$/;"	m
+navilos	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^navilos = build\/navilos.axf$/;"	m
+navilos_bin	Makefile	/^navilos_bin = build\/navilos.bin$/;"	m
+navilos_bin	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^navilos_bin = build\/navilos.bin$/;"	m
+printf_buf	lib/stdio.c	/^static char printf_buf[PRINTF_BUF_LEN];   \/\/ 1KB$/;"	v	typeref:typename:char[]	file:
+printf_buf	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^static char printf_buf[PRINTF_BUF_LEN];   \/\/ 1KB$/;"	v	typeref:typename:char[]	file:
+prioritymask	hal/rvpb/Interrupt.h	/^    PriorityMask_t     prioritymask;      \/\/0x004$/;"	m	struct:GicCput_t	typeref:typename:PriorityMask_t
+prioritymask	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    PriorityMask_t     prioritymask;      \/\/0x004$/;"	m	struct:GicCput_t	typeref:typename:PriorityMask_t
+putstr	lib/stdio.c	/^uint32_t putstr(const char* s){$/;"	f	typeref:typename:uint32_t
+putstr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^uint32_t putstr(const char* s)$/;"	f	typeref:typename:uint32_t
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:EndOfInterrupt_t::__anon19c65b350508	typeref:typename:uint32_t:19
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:HighestPendInter_t::__anon19c65b350708	typeref:typename:uint32_t:19
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:InterruptAck_t::__anon19c65b350408	typeref:typename:uint32_t:19
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:ControllerType_t::__anon19c65b350908	typeref:typename:uint32_t:24
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:PriorityMask_t::__anon19c65b350208	typeref:typename:uint32_t:24
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:RunningInterrupt_t::__anon19c65b350608	typeref:typename:uint32_t:24
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:29;$/;"	m	struct:BinaryPoint_t::__anon19c65b350308	typeref:typename:uint32_t:29
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:31;$/;"	m	struct:CpuControl_t::__anon19c65b350108	typeref:typename:uint32_t:31
+reserved	hal/rvpb/Interrupt.h	/^        uint32_t reserved:31;$/;"	m	struct:DistributorCtrl_t::__anon19c65b350808	typeref:typename:uint32_t:31
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:16;$/;"	m	struct:UARTIBRD_t::__anon7165b5840508	typeref:typename:uint32_t:16
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:20;$/;"	m	struct:UARTDR_t::__anon7165b5840108	typeref:typename:uint32_t:20
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTICR_t::__anon7165b5840d08	typeref:typename:uint32_t:21
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTIMSC_t::__anon7165b5840a08	typeref:typename:uint32_t:21
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTMIS_t::__anon7165b5840c08	typeref:typename:uint32_t:21
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTRIS_t::__anon7165b5840b08	typeref:typename:uint32_t:21
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:23;$/;"	m	struct:UARTFR_t::__anon7165b5840308	typeref:typename:uint32_t:23
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:24;$/;"	m	struct:UARTILPR_t::__anon7165b5840408	typeref:typename:uint32_t:24
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:24;$/;"	m	struct:UARTLCR_H_t::__anon7165b5840708	typeref:typename:uint32_t:24
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:26;$/;"	m	struct:UARTFBRD_t::__anon7165b5840608	typeref:typename:uint32_t:26
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:26;$/;"	m	struct:UARTIFLS_t::__anon7165b5840908	typeref:typename:uint32_t:26
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:28;$/;"	m	struct:UARTRSR_t::__anon7165b5840208	typeref:typename:uint32_t:28
+reserved	hal/rvpb/Uart.h	/^        uint32_t reserved:29;$/;"	m	struct:UARTDMACR_t::__anon7165b5840e08	typeref:typename:uint32_t:29
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:EndOfInterrupt_t::__anone243bf4e0508	typeref:typename:uint32_t:19
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:HighestPendInter_t::__anone243bf4e0708	typeref:typename:uint32_t:19
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:19;$/;"	m	struct:InterruptAck_t::__anone243bf4e0408	typeref:typename:uint32_t:19
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:ControllerType_t::__anone243bf4e0908	typeref:typename:uint32_t:24
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:PriorityMask_t::__anone243bf4e0208	typeref:typename:uint32_t:24
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:24;$/;"	m	struct:RunningInterrupt_t::__anone243bf4e0608	typeref:typename:uint32_t:24
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:29;$/;"	m	struct:BinaryPoint_t::__anone243bf4e0308	typeref:typename:uint32_t:29
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:31;$/;"	m	struct:CpuControl_t::__anone243bf4e0108	typeref:typename:uint32_t:31
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^        uint32_t reserved:31;$/;"	m	struct:DistributorCtrl_t::__anone243bf4e0808	typeref:typename:uint32_t:31
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:16;$/;"	m	struct:UARTIBRD_t::__anonc8a4e5fd0508	typeref:typename:uint32_t:16
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:20;$/;"	m	struct:UARTDR_t::__anonc8a4e5fd0108	typeref:typename:uint32_t:20
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTICR_t::__anonc8a4e5fd0d08	typeref:typename:uint32_t:21
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTIMSC_t::__anonc8a4e5fd0a08	typeref:typename:uint32_t:21
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTMIS_t::__anonc8a4e5fd0c08	typeref:typename:uint32_t:21
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:21;$/;"	m	struct:UARTRIS_t::__anonc8a4e5fd0b08	typeref:typename:uint32_t:21
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:23;$/;"	m	struct:UARTFR_t::__anonc8a4e5fd0308	typeref:typename:uint32_t:23
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:24;$/;"	m	struct:UARTILPR_t::__anonc8a4e5fd0408	typeref:typename:uint32_t:24
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:24;$/;"	m	struct:UARTLCR_H_t::__anonc8a4e5fd0708	typeref:typename:uint32_t:24
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:26;$/;"	m	struct:UARTFBRD_t::__anonc8a4e5fd0608	typeref:typename:uint32_t:26
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:26;$/;"	m	struct:UARTIFLS_t::__anonc8a4e5fd0908	typeref:typename:uint32_t:26
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:28;$/;"	m	struct:UARTRSR_t::__anonc8a4e5fd0208	typeref:typename:uint32_t:28
+reserved	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved:29;$/;"	m	struct:UARTDMACR_t::__anonc8a4e5fd0e08	typeref:typename:uint32_t:29
+reserved0	hal/rvpb/Interrupt.h	/^    uint32_t            reserved0[62];      \/\/0x008-0x0FC$/;"	m	struct:GicDist_t	typeref:typename:uint32_t[62]
+reserved0	hal/rvpb/Uart.h	/^    uint32_t    reserved0[4];   \/\/0x008-0x014$/;"	m	struct:PL011_t	typeref:typename:uint32_t[4]
+reserved0	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            reserved0[62];      \/\/0x008-0x0FC$/;"	m	struct:GicDist_t	typeref:typename:uint32_t[62]
+reserved0	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t    reserved0[4];   \/\/0x008-0x014$/;"	m	struct:PL011_t	typeref:typename:uint32_t[4]
+reserved1	hal/rvpb/Interrupt.h	/^    uint32_t            reserved1;          \/\/0x100$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+reserved1	hal/rvpb/Uart.h	/^    uint32_t    reserved1;      \/\/0x01C$/;"	m	struct:PL011_t	typeref:typename:uint32_t
+reserved1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            reserved1;          \/\/0x100$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+reserved1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    uint32_t    reserved1;      \/\/0x01C$/;"	m	struct:PL011_t	typeref:typename:uint32_t
+reserved2	hal/rvpb/Interrupt.h	/^    uint32_t            reserved2[29];      \/\/0x10C-0x17C$/;"	m	struct:GicDist_t	typeref:typename:uint32_t[29]
+reserved2	hal/rvpb/Uart.h	/^        uint32_t reserved2:16;$/;"	m	struct:UARTCR_t::__anon7165b5840808	typeref:typename:uint32_t:16
+reserved2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            reserved2[29];      \/\/0x10C-0x17C$/;"	m	struct:GicDist_t	typeref:typename:uint32_t[29]
+reserved2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^        uint32_t reserved2:16;$/;"	m	struct:UARTCR_t::__anonc8a4e5fd0808	typeref:typename:uint32_t:16
+reserved3	hal/rvpb/Interrupt.h	/^    uint32_t            reserved3;          \/\/0x180$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+reserved3	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            reserved3;          \/\/0x180$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+run	Makefile	/^run: $(navilos)$/;"	t
+run	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/Makefile	/^run: $(navilos)$/;"	t
+runninginterrupt	hal/rvpb/Interrupt.h	/^    RunningInterrupt_t runninginterrupt;  \/\/0x014$/;"	m	struct:GicCput_t	typeref:typename:RunningInterrupt_t
+runninginterrupt	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    RunningInterrupt_t runninginterrupt;  \/\/0x014$/;"	m	struct:GicCput_t	typeref:typename:RunningInterrupt_t
+sHandlers	hal/rvpb/Interrupt.c	/^static InterHdlr_fptr sHandlers[INTERRUPT_HANDLER_NUM];$/;"	v	typeref:typename:InterHdlr_fptr[]	file:
+sHandlers	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.c	/^static InterHdlr_fptr sHandlers[INTERRUPT_HANDLER_NUM];$/;"	v	typeref:typename:InterHdlr_fptr[]	file:
+setenable1	hal/rvpb/Interrupt.h	/^    uint32_t            setenable1;         \/\/0x104$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+setenable1	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            setenable1;         \/\/0x104$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+setenable2	hal/rvpb/Interrupt.h	/^    uint32_t            setenable2;         \/\/0x108$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+setenable2	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Interrupt.h	/^    uint32_t            setenable2;         \/\/0x108$/;"	m	struct:GicDist_t	typeref:typename:uint32_t
+timerxbgload	hal/rvpb/Timer.h	/^    uint32_t        timerxbgload;   \/\/ 0x18$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxbgload	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t        timerxbgload;   \/\/ 0x18$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxcontrol	hal/rvpb/Timer.h	/^    TimerXControl_t timerxcontrol;  \/\/ 0x08$/;"	m	struct:Timer_t	typeref:typename:TimerXControl_t
+timerxcontrol	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    TimerXControl_t timerxcontrol;  \/\/ 0x08$/;"	m	struct:Timer_t	typeref:typename:TimerXControl_t
+timerxintclr	hal/rvpb/Timer.h	/^    uint32_t        timerxintclr;   \/\/ 0x0C$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxintclr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t        timerxintclr;   \/\/ 0x0C$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxload	hal/rvpb/Timer.h	/^    uint32_t        timerxload;     \/\/ 0x00$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxload	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t        timerxload;     \/\/ 0x00$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxmis	hal/rvpb/Timer.h	/^    TimerXMIS_t     timerxmis;      \/\/ 0x14$/;"	m	struct:Timer_t	typeref:typename:TimerXMIS_t
+timerxmis	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    TimerXMIS_t     timerxmis;      \/\/ 0x14$/;"	m	struct:Timer_t	typeref:typename:TimerXMIS_t
+timerxris	hal/rvpb/Timer.h	/^    TimerXRIS_t     timerxris;      \/\/ 0x10$/;"	m	struct:Timer_t	typeref:typename:TimerXRIS_t
+timerxris	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    TimerXRIS_t     timerxris;      \/\/ 0x10$/;"	m	struct:Timer_t	typeref:typename:TimerXRIS_t
+timerxvalue	hal/rvpb/Timer.h	/^    uint32_t        timerxvalue;    \/\/ 0x04$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+timerxvalue	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Timer.h	/^    uint32_t        timerxvalue;    \/\/ 0x04$/;"	m	struct:Timer_t	typeref:typename:uint32_t
+true	include/stdbool.h	/^#define true	/;"	d
+true	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdbool.h	/^#define true	/;"	d
+uartcr	hal/rvpb/Uart.h	/^    UARTCR_t    uartcr;         \/\/0x030$/;"	m	struct:PL011_t	typeref:typename:UARTCR_t
+uartcr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTCR_t    uartcr;         \/\/0x030$/;"	m	struct:PL011_t	typeref:typename:UARTCR_t
+uartdmacr	hal/rvpb/Uart.h	/^    UARTDMACR_t uartdmacr;      \/\/0x048$/;"	m	struct:PL011_t	typeref:typename:UARTDMACR_t
+uartdmacr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTDMACR_t uartdmacr;      \/\/0x048$/;"	m	struct:PL011_t	typeref:typename:UARTDMACR_t
+uartdr	hal/rvpb/Uart.h	/^    UARTDR_t    uartdr;         \/\/0x000$/;"	m	struct:PL011_t	typeref:typename:UARTDR_t
+uartdr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTDR_t    uartdr;         \/\/0x000$/;"	m	struct:PL011_t	typeref:typename:UARTDR_t
+uartfbrd	hal/rvpb/Uart.h	/^    UARTFBRD_t  uartfbrd;       \/\/0x028$/;"	m	struct:PL011_t	typeref:typename:UARTFBRD_t
+uartfbrd	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTFBRD_t  uartfbrd;       \/\/0x028$/;"	m	struct:PL011_t	typeref:typename:UARTFBRD_t
+uartfr	hal/rvpb/Uart.h	/^    UARTFR_t    uartfr;         \/\/0x018$/;"	m	struct:PL011_t	typeref:typename:UARTFR_t
+uartfr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTFR_t    uartfr;         \/\/0x018$/;"	m	struct:PL011_t	typeref:typename:UARTFR_t
+uartibrd	hal/rvpb/Uart.h	/^    UARTIBRD_t  uartibrd;       \/\/0x024$/;"	m	struct:PL011_t	typeref:typename:UARTIBRD_t
+uartibrd	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTIBRD_t  uartibrd;       \/\/0x024$/;"	m	struct:PL011_t	typeref:typename:UARTIBRD_t
+uarticr	hal/rvpb/Uart.h	/^    UARTICR_t   uarticr;        \/\/0x044$/;"	m	struct:PL011_t	typeref:typename:UARTICR_t
+uarticr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTICR_t   uarticr;        \/\/0x044$/;"	m	struct:PL011_t	typeref:typename:UARTICR_t
+uartifls	hal/rvpb/Uart.h	/^    UARTIFLS_t  uartifls;       \/\/0x034$/;"	m	struct:PL011_t	typeref:typename:UARTIFLS_t
+uartifls	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTIFLS_t  uartifls;       \/\/0x034$/;"	m	struct:PL011_t	typeref:typename:UARTIFLS_t
+uartilpr	hal/rvpb/Uart.h	/^    UARTILPR_t  uartilpr;       \/\/0x020$/;"	m	struct:PL011_t	typeref:typename:UARTILPR_t
+uartilpr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTILPR_t  uartilpr;       \/\/0x020$/;"	m	struct:PL011_t	typeref:typename:UARTILPR_t
+uartimsc	hal/rvpb/Uart.h	/^    UARTIMSC_t  uartimsc;       \/\/0x038$/;"	m	struct:PL011_t	typeref:typename:UARTIMSC_t
+uartimsc	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTIMSC_t  uartimsc;       \/\/0x038$/;"	m	struct:PL011_t	typeref:typename:UARTIMSC_t
+uartlcr_h	hal/rvpb/Uart.h	/^    UARTLCR_H_t uartlcr_h;      \/\/0x02C$/;"	m	struct:PL011_t	typeref:typename:UARTLCR_H_t
+uartlcr_h	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTLCR_H_t uartlcr_h;      \/\/0x02C$/;"	m	struct:PL011_t	typeref:typename:UARTLCR_H_t
+uartmis	hal/rvpb/Uart.h	/^    UARTMIS_t   uartmis;        \/\/0x040$/;"	m	struct:PL011_t	typeref:typename:UARTMIS_t
+uartmis	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTMIS_t   uartmis;        \/\/0x040$/;"	m	struct:PL011_t	typeref:typename:UARTMIS_t
+uartris	hal/rvpb/Uart.h	/^    UARTRIS_t   uartris;        \/\/0x03C$/;"	m	struct:PL011_t	typeref:typename:UARTRIS_t
+uartris	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTRIS_t   uartris;        \/\/0x03C$/;"	m	struct:PL011_t	typeref:typename:UARTRIS_t
+uartrsr	hal/rvpb/Uart.h	/^    UARTRSR_t   uartrsr;        \/\/0x004$/;"	m	struct:PL011_t	typeref:typename:UARTRSR_t
+uartrsr	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/hal/rvpb/Uart.h	/^    UARTRSR_t   uartrsr;        \/\/0x004$/;"	m	struct:PL011_t	typeref:typename:UARTRSR_t
+uint16_t	include/stdint.h	/^typedef unsigned short int	uint16_t;$/;"	t	typeref:typename:unsigned short int
+uint16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned short int	uint16_t;$/;"	t	typeref:typename:unsigned short int
+uint32_t	include/stdint.h	/^typedef unsigned int		uint32_t;$/;"	t	typeref:typename:unsigned int
+uint32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned int		uint32_t;$/;"	t	typeref:typename:unsigned int
+uint64_t	include/stdint.h	/^typedef unsigned long int	uint64_t;$/;"	t	typeref:typename:unsigned long int
+uint64_t	include/stdint.h	/^typedef unsigned long long int	uint64_t;$/;"	t	typeref:typename:unsigned long long int
+uint64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uint64_t;$/;"	t	typeref:typename:unsigned long int
+uint64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long long int	uint64_t;$/;"	t	typeref:typename:unsigned long long int
+uint8_t	include/stdint.h	/^typedef unsigned char		uint8_t;$/;"	t	typeref:typename:unsigned char
+uint8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned char		uint8_t;$/;"	t	typeref:typename:unsigned char
+uint_fast16_t	include/stdint.h	/^typedef unsigned int		uint_fast16_t;$/;"	t	typeref:typename:unsigned int
+uint_fast16_t	include/stdint.h	/^typedef unsigned long int	uint_fast16_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned int		uint_fast16_t;$/;"	t	typeref:typename:unsigned int
+uint_fast16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uint_fast16_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast32_t	include/stdint.h	/^typedef unsigned int		uint_fast32_t;$/;"	t	typeref:typename:unsigned int
+uint_fast32_t	include/stdint.h	/^typedef unsigned long int	uint_fast32_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned int		uint_fast32_t;$/;"	t	typeref:typename:unsigned int
+uint_fast32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uint_fast32_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast64_t	include/stdint.h	/^typedef unsigned long int	uint_fast64_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast64_t	include/stdint.h	/^typedef unsigned long long int	uint_fast64_t;$/;"	t	typeref:typename:unsigned long long int
+uint_fast64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uint_fast64_t;$/;"	t	typeref:typename:unsigned long int
+uint_fast64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long long int	uint_fast64_t;$/;"	t	typeref:typename:unsigned long long int
+uint_fast8_t	include/stdint.h	/^typedef unsigned char		uint_fast8_t;$/;"	t	typeref:typename:unsigned char
+uint_fast8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned char		uint_fast8_t;$/;"	t	typeref:typename:unsigned char
+uint_least16_t	include/stdint.h	/^typedef unsigned short int	uint_least16_t;$/;"	t	typeref:typename:unsigned short int
+uint_least16_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned short int	uint_least16_t;$/;"	t	typeref:typename:unsigned short int
+uint_least32_t	include/stdint.h	/^typedef unsigned int		uint_least32_t;$/;"	t	typeref:typename:unsigned int
+uint_least32_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned int		uint_least32_t;$/;"	t	typeref:typename:unsigned int
+uint_least64_t	include/stdint.h	/^typedef unsigned long int	uint_least64_t;$/;"	t	typeref:typename:unsigned long int
+uint_least64_t	include/stdint.h	/^typedef unsigned long long int	uint_least64_t;$/;"	t	typeref:typename:unsigned long long int
+uint_least64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uint_least64_t;$/;"	t	typeref:typename:unsigned long int
+uint_least64_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long long int	uint_least64_t;$/;"	t	typeref:typename:unsigned long long int
+uint_least8_t	include/stdint.h	/^typedef unsigned char		uint_least8_t;$/;"	t	typeref:typename:unsigned char
+uint_least8_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned char		uint_least8_t;$/;"	t	typeref:typename:unsigned char
+uintmax_t	include/stdint.h	/^typedef unsigned long int	uintmax_t;$/;"	t	typeref:typename:unsigned long int
+uintmax_t	include/stdint.h	/^typedef unsigned long long int	uintmax_t;$/;"	t	typeref:typename:unsigned long long int
+uintmax_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uintmax_t;$/;"	t	typeref:typename:unsigned long int
+uintmax_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long long int	uintmax_t;$/;"	t	typeref:typename:unsigned long long int
+uintptr_t	include/stdint.h	/^typedef unsigned int		uintptr_t;$/;"	t	typeref:typename:unsigned int
+uintptr_t	include/stdint.h	/^typedef unsigned long int	uintptr_t;$/;"	t	typeref:typename:unsigned long int
+uintptr_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned int		uintptr_t;$/;"	t	typeref:typename:unsigned int
+uintptr_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdint.h	/^typedef unsigned long int	uintptr_t;$/;"	t	typeref:typename:unsigned long int
+utoa	lib/stdio.c	/^uint32_t utoa(char *buf, uint32_t val, utoa_t base){$/;"	f	typeref:typename:uint32_t
+utoa	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^uint32_t utoa(char* buf, uint32_t val, utoa_t base)$/;"	f	typeref:typename:uint32_t
+utoa_dec	lib/stdio.h	/^	utoa_dec = 10,$/;"	e	enum:utoa_t
+utoa_dec	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.h	/^    utoa_dec = 10,$/;"	e	enum:utoa_t
+utoa_hex	lib/stdio.h	/^	utoa_hex = 16,$/;"	e	enum:utoa_t
+utoa_hex	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.h	/^    utoa_hex = 16,$/;"	e	enum:utoa_t
+utoa_t	lib/stdio.h	/^typedef enum utoa_t{$/;"	g
+utoa_t	lib/stdio.h	/^} utoa_t;$/;"	t	typeref:enum:utoa_t
+utoa_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.h	/^typedef enum utoa_t$/;"	g
+utoa_t	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.h	/^} utoa_t;$/;"	t	typeref:enum:utoa_t
+va_arg	include/stdarg.h	/^#define va_arg(/;"	d
+va_arg	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdarg.h	/^#define va_arg(/;"	d
+va_end	include/stdarg.h	/^#define va_end(/;"	d
+va_end	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdarg.h	/^#define va_end(/;"	d
+va_list	include/stdarg.h	/^typedef  __builtin_va_list va_list;$/;"	t	typeref:typename:__builtin_va_list
+va_list	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t	typeref:typename:__builtin_va_list
+va_start	include/stdarg.h	/^#define va_start(/;"	d
+va_start	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/include/stdarg.h	/^#define va_start(/;"	d
+vsprintf	lib/stdio.c	/^uint32_t vsprintf(char * buf, const char* format, va_list arg){$/;"	f	typeref:typename:uint32_t
+vsprintf	tmp/Navilos-fcd6a32a91d5d4053fbcd7b7e8689f77c74c2989/lib/stdio.c	/^uint32_t vsprintf(char* buf, const char* format, va_list arg)$/;"	f	typeref:typename:uint32_t

@@ -1,8 +1,10 @@
 {
 	"files.associations": {
-		"stdint.h": "c",
-		"halinterrupt.h": "c",
-		"task.h": "c",
-		"stdio.h": "c"
-	}
+        "stdint.h": "c",
+        "halinterrupt.h": "c",
+        "task.h": "c",
+        "stdio.h": "c",
+        "kernel.h": "c",
+        "memio.h": "c"
+    }
 }
