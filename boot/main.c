@@ -102,7 +102,7 @@ void User_task0(void)
 
     while(true)
     {
-        debug_printf("User Task #0 SP=%x%x\n", &local);
+        debug_printf("User Task #0 SP=0x%x\n", &local);
         Kernel_yield();
     }
 }
@@ -113,7 +113,7 @@ void User_task1(void)
     debug_printf("User Task #1\n");
 
     while(true){
-        debug_printf("User Task #1 SP=%x%x\n", &local);
+        debug_printf("User Task #1 SP=0x%x\n", &local);
         Kernel_yield();
     }
 }
@@ -124,7 +124,7 @@ void User_task2(void)
     debug_printf("User Task #2\n");
 
     while(true){
-        debug_printf("User Task #2 SP=%x%x\n", &local);
+        debug_printf("User Task #2 SP=0x%x\n", &local);
         Kernel_yield();
     }
 }
