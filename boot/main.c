@@ -154,9 +154,3 @@ void User_task2(void)
         Kernel_yield();
     }
 }
-
-
-void cherry-pick_test(void){
-	int hahaha =0 ;
-	
-}
