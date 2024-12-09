@@ -126,7 +126,7 @@ void User_task0(void)
                     cmdBufIdx++;
                     cmdBufIdx %= 16;
                 }
-                debug_printf("\nEvent handled by Task #0\n");
+                // debug_printf("\nEvent handled by Task #0\n");
                 break;
 
             case KernelEventFlag_CmdOut:
