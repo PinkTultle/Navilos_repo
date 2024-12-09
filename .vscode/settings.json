@@ -5,6 +5,7 @@
         "task.h": "c",
         "stdio.h": "c",
         "kernel.h": "c",
-        "memio.h": "c"
+        "memio.h": "c",
+        "stdbool.h": "c"
     }
 }

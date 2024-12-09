@@ -9,11 +9,11 @@
 typedef enum KernelMsgQ_t
 {
 	KernelMsgQ_Task0 = 0,
-	KernelMSGQ_Task1,
-	KernelMSGQ_Task2,
+	KernelMsgQ_Task1,
+	KernelMsgQ_Task2,
 
-	KernelMSGQ_Num
-}KernelMsgQ_t;
+	KernelMsgQ_Num
+} KernelMsgQ_t;
 
 typedef struct KernelCirQ_t
 {
@@ -26,6 +26,6 @@ void Kernel_msgQ_init(void);
 bool Kernel_msgQ_is_empty(KernelMsgQ_t Qname);
 bool Kernel_msgQ_is_full(KernelMsgQ_t Qname);
 bool Kernel_msgQ_enqueue(KernelMsgQ_t Qname, uint8_t data);
-bool Kernel_msgQ_dequeue(kernelMsgQ_t Qname, uint8_t* out_data);
+bool Kernel_msgQ_dequeue(KernelMsgQ_t Qname, uint8_t* out_data);
 
 #endif
